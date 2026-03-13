@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Fortfahren", "description": "Der Server hat die Anfrage-Header erhalten und der Client sollte mit dem Senden des Anfrage-Bodys fortfahren." },
+  "200": { "phrase": "OK", "description": "Die Anfrage wurde erfolgreich bearbeitet." },
+  "201": { "phrase": "Erstellt", "description": "Die Anfrage war erfolgreich und eine neue Ressource wurde erstellt." },
+  "204": { "phrase": "Kein Inhalt", "description": "Die Anfrage wurde erfolgreich bearbeitet, aber es gibt keinen Inhalt zurückzugeben." },
+  "301": { "phrase": "Dauerhaft verschoben", "description": "Die angeforderte Ressource wurde dauerhaft einer neuen URI zugewiesen." },
+  "400": { "phrase": "Ungültige Anfrage", "description": "Der Server kann die Anfrage aufgrund eines Client-Fehlers nicht verarbeiten." },
+  "401": { "phrase": "Nicht autorisiert", "description": "Die Anfrage erfordert eine Benutzerauthentifizierung." },
+  "403": { "phrase": "Verboten", "description": "Der Server hat die Anfrage verstanden, weigert sich aber, sie zu autorisieren." },
+  "404": { "phrase": "Nicht gefunden", "description": "Der Server kann die angeforderte Ressource nicht finden." },
+  "429": { "phrase": "Zu viele Anfragen", "description": "Der Benutzer hat zu viele Anfragen in einer bestimmten Zeit gesendet." },
+  "500": { "phrase": "Interner Serverfehler", "description": "Der Server ist auf eine unerwartete Bedingung gestoßen." },
+  "502": { "phrase": "Bad Gateway", "description": "Der Server hat als Gateway eine ungültige Antwort vom Upstream-Server erhalten." },
+  "503": { "phrase": "Dienst nicht verfügbar", "description": "Der Server ist derzeit nicht in der Lage, die Anfrage zu bearbeiten." },
+  "504": { "phrase": "Gateway-Timeout", "description": "Der Server hat keine rechtzeitige Antwort vom Upstream-Server erhalten." }
+}

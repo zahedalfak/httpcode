@@ -9,7 +9,8 @@ A comprehensive reference for HTTP status codes, including standard IETF codes a
 - **CLI Tool**: A simple Python script to search and filter codes quickly.
 - **Reference Links**: Direct MDN links for all standard codes.
 - **Developer-Friendly**: Data stored in a clean `codes.json` format.
-- **i18n Support**: Descriptions available in multiple languages (EN, FA, AR, ZH, ES, FR).
+- **i18n Support**: Descriptions available in multiple languages (EN, FA, AR, ZH, ES, FR, DE, JA, RU).
+- **Guides**: Multi-language guides available in `i18n/guides/`.
 
 ## 🛠 Usage
 
@@ -18,8 +19,11 @@ A comprehensive reference for HTTP status codes, including standard IETF codes a
 You can search by code, keyword, or filter by class (1xx, 2xx, etc.).
 
 ```bash
-# Search by specific code
-python httpcode.py 404
+# List supported languages
+python httpcode.py --list-langs
+
+# Search by specific code in a specific language
+python httpcode.py 404 --lang fa
 
 # Search by keyword
 python httpcode.py timeout

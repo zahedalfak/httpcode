@@ -21,6 +21,15 @@ def load_translations(lang):
         # Default to empty if language file not found
         return {}
 
+def get_supported_langs():
+    i18n_dir = os.path.join(os.path.dirname(__file__), 'i18n')
+    langs = []
+    if os.path.exists(i18n_dir):
+        for f in os.listdir(i18n_dir):
+            if f.endswith('.json'):
+                langs.append(f.replace('.json', ''))
+    return sorted(langs)
+
 def search_code(query, codes):
     results = []
     query_str = str(query).lower()
@@ -68,14 +77,22 @@ def format_result(item, translations):
 
 def main():
     parser = argparse.ArgumentParser(description="Search for HTTP status codes.")
-    parser.add_argument('query', help="The HTTP code, keyword, or class (e.g., 404, timeout, 4xx)")
+    parser.add_argument('query', nargs='?', help="The HTTP code, keyword, or class (e.g., 404, timeout, 4xx)")
     parser.add_argument('--lang', default='en', help="The language for descriptions (e.g., en, fa)")
+    parser.add_argument('--list-langs', action='store_true', help="List all supported languages")
     
-    if len(sys.argv) < 2:
+    args = parser.parse_args()
+
+    if args.list_langs:
+        langs = get_supported_langs()
+        print("Supported languages:")
+        for l in langs:
+            print(f"  - {l}")
+        sys.exit(0)
+
+    if not args.query:
         parser.print_help()
         sys.exit(1)
-
-    args = parser.parse_args()
     codes = load_codes()
     translations = load_translations(args.lang)
     
