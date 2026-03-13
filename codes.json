@@ -504,5 +504,23 @@
     "phrase": "Network Connect Timeout Error",
     "description": "Used by some proxies to indicate a network connect timeout behind the proxy.",
     "class": "5xx Server Error (Unofficial)"
+  },
+  {
+    "code": 498,
+    "phrase": "Invalid Token",
+    "description": "Returned by ArcGIS Runtime SDK for iOS when an expired or invalid token is used.",
+    "class": "4xx Client Error (Unofficial - Google/ArcGIS)"
+  },
+  {
+    "code": 529,
+    "phrase": "Site is overloaded",
+    "description": "Used by Qualys in the SSLLabs API to indicate that the site is overloaded.",
+    "class": "5xx Server Error (Unofficial)"
+  },
+  {
+    "code": 530,
+    "phrase": "Site is frozen",
+    "description": "Used by Pantheon to indicate a site that has been frozen due to inactivity.",
+    "class": "5xx Server Error (Unofficial - Pantheon)"
   }
 ]
