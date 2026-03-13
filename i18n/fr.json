@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continuer", "description": "Le serveur a reçu les en-têtes et le client doit envoyer le corps." },
+  "200": { "phrase": "OK", "description": "La requête a réussi." },
+  "201": { "phrase": "Créé", "description": "La requête a réussi et une nouvelle ressource a été créée." },
+  "204": { "phrase": "Pas de Contenu", "description": "Le serveur a traité la requête avec succès mais ne renvoie pas de contenu." },
+  "301": { "phrase": "Déplacé de façon permanente", "description": "La ressource demandée a été assignée à une nouvelle URI permanente." },
+  "400": { "phrase": "Mauvaise Requête", "description": "Le serveur ne peut pas traiter la requête en raison d'une erreur client." },
+  "401": { "phrase": "Non Autorisé", "description": "La requête nécessite une authentification de l'utilisateur." },
+  "403": { "phrase": "Interdit", "description": "Le serveur a compris la requête mais refuse de l'autoriser." },
+  "404": { "phrase": "Non Trouvé", "description": "Le serveur ne peut pas trouver la ressource demandée." },
+  "429": { "phrase": "Trop de Requêtes", "description": "L'utilisateur a envoyé trop de requêtes dans un temps donné." },
+  "500": { "phrase": "Erreur Interne du Serveur", "description": "Le serveur a rencontré une condition inattendue." },
+  "502": { "phrase": "Mauvaise Passerelle", "description": "Le serveur a reçu une réponse invalide du serveur amont." },
+  "503": { "phrase": "Service Indisponible", "description": "Le serveur n'est pas prêt à traiter la requête (surcharge ou maintenance)." },
+  "504": { "phrase": "Délai d'attente de la passerelle", "description": "Le serveur amont n'a pas répondu dans le temps imparti." }
+}

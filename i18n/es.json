@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continuar", "description": "El servidor ha recibido las cabeceras y el cliente debe enviar el cuerpo." },
+  "200": { "phrase": "OK", "description": "La solicitud se ha procesado con éxito." },
+  "201": { "phrase": "Creado", "description": "La solicitud se ha completado y se ha creado un nuevo recurso." },
+  "204": { "phrase": "Sin Contenido", "description": "El servidor procesó con éxito la solicitud, pero no devuelve ningún contenido." },
+  "301": { "phrase": "Movido Permanentemente", "description": "El recurso solicitado se ha asignado a una nueva URI permanente." },
+  "400": { "phrase": "Solicitud Incorrecta", "description": "El servidor no puede procesar la solicitud debido a un error del cliente." },
+  "401": { "phrase": "No Autorizado", "description": "La solicitud requiere autenticación del usuario." },
+  "403": { "phrase": "Prohibido", "description": "El servidor entendió la solicitud pero se niega a autorizarla." },
+  "404": { "phrase": "No Encontrado", "description": "El servidor no puede encontrar el recurso solicitado." },
+  "429": { "phrase": "Demasiadas Solicitudes", "description": "El usuario ha enviado demasiadas solicitudes en un tiempo determinado." },
+  "500": { "phrase": "Error Interno del Servidor", "description": "El servidor encontró una condición inesperada." },
+  "502": { "phrase": "Puerta de Enlace Incorrecta", "description": "El servidor recibió una respuesta inválida del servidor ascendente." },
+  "503": { "phrase": "Servicio No Disponible", "description": "El servidor no puede manejar la solicitud debido a sobrecarga o mantenimiento." },
+  "504": { "phrase": "Tiempo de Espera de la Puerta de Enlace", "description": "El servidor no recibió una respuesta a tiempo del servidor ascendente." }
+}
