@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Nastavi", "description": "Poslužitelj je primio zaglavlja zahtjeva i klijent treba nastaviti sa slanjem tijela zahtjeva." },
+  "200": { "phrase": "U redu", "description": "Zahtjev je uspješno izvršen." },
+  "201": { "phrase": "Stvoreno", "description": "Zahtjev je uspješno izvršen i stvoren je novi resurs." },
+  "204": { "phrase": "Bez sadržaja", "description": "Poslužitelj je uspješno obradio zahtjev, ali ne vraća nikakav sadržaj." },
+  "301": { "phrase": "Trajno premješteno", "description": "Zatraženom resursu dodijeljen je novi trajni URI." },
+  "400": { "phrase": "Loš zahtjev", "description": "Poslužitelj ne može obraditi zahtjev zbog pogreške klijenta." },
+  "401": { "phrase": "Neovlašteno", "description": "Zahtjev zahtijeva provjeru autentičnosti korisnika." },
+  "403": { "phrase": "Zabranjeno", "description": "Poslužitelj je razumio zahtjev, ali odbija ga autorizirati." },
+  "404": { "phrase": "Nije pronađeno", "description": "Poslužitelj ne može pronaći zatraženi resurs." },
+  "429": { "phrase": "Previše zahtjeva", "description": "Korisnik je poslao previše zahtjeva u određenom vremenu." },
+  "500": { "phrase": "Interna pogreška poslužitelja", "description": "Poslužitelj se suočio s neočekivanim stanjem." },
+  "502": { "phrase": "Loš pristupnik", "description": "Poslužitelj je primio nevažeći odgovor od uzvodnog poslužitelja." },
+  "503": { "phrase": "Usluga nedostupna", "description": "Poslužitelj trenutno nije u mogućnosti obraditi zahtjev." },
+  "504": { "phrase": "Istek vremena pristupnika", "description": "Poslužitelj nije na vrijeme primio odgovor od uzvodnog poslužitelja." }
+}

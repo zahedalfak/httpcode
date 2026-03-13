@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Nastavi", "description": "Server je primio zaglavlja zahteva i klijent treba da nastavi sa slanjem tela zahteva." },
+  "200": { "phrase": "U redu", "description": "Zahtev je uspešno izvršen." },
+  "201": { "phrase": "Kreirano", "description": "Zahtev je uspešno izvršen i stvoren je novi resurs." },
+  "204": { "phrase": "Bez sadržaja", "description": "Server je uspešno obradio zahtev, ali ne vraća nikakav sadržaj." },
+  "301": { "phrase": "Trajno premešteno", "description": "Traženom resursu je dodeljen novi trajni URI." },
+  "400": { "phrase": "Loš zahtev", "description": "Server ne može da obradi zahtev zbog greške klijenta." },
+  "401": { "phrase": "Neovlašćeno", "description": "Zahtev zahteva proveru autentičnosti korisnika." },
+  "403": { "phrase": "Zabranjeno", "description": "Server je razumeo zahtev, ali odbija da ga autorizuje." },
+  "404": { "phrase": "Nije pronađeno", "description": "Server ne može da pronađe traženi resurs." },
+  "429": { "phrase": "Previše zahteva", "description": "Korisnik je poslao previše zahteva u određenom vremenu." },
+  "500": { "phrase": "Interna greška servera", "description": "Server se suočio sa neočekivanim stanjem." },
+  "502": { "phrase": "Loš mrežni prolaz", "description": "Server je primio nevažeći odgovor od uzvodnog servera." },
+  "503": { "phrase": "Usluga nedostupna", "description": "Server trenutno nije u mogućnosti da obradi zahtev." },
+  "504": { "phrase": "Istek vremena mrežnog prolaza", "description": "Server nije na vreme primio odgovor od uzvodnog servera." }
+}

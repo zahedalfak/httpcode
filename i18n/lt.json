@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Tęsti", "description": "Serveris gavo užklausos antraštes ir klientas turėtų tęsti užklausos pagrindinio teksto siuntimą." },
+  "200": { "phrase": "Gerai", "description": "Užklausa sėkmingai įvykdyta." },
+  "201": { "phrase": "Sukurta", "description": "Užklausa sėkmingai įvykdyta ir sukurtas naujas resursas." },
+  "204": { "phrase": "Nėra turinio", "description": "Serveris sėkmingai apdorojo užklausą, bet negrąžina jokio turinio." },
+  "301": { "phrase": "Perkelta visam laikui", "description": "Prašomam resursui priskirtas naujas nuolatinis URI." },
+  "400": { "phrase": "Bloga užklausa", "description": "Serveris negali apdoroti užklausos dėl kliento klaidos." },
+  "401": { "phrase": "Neautorizuota", "description": "Užklausai reikalingas vartotojo autentifikavimas." },
+  "403": { "phrase": "Draudžiama", "description": "Serveris suprato užklausą, bet atsisako ją autorizuoti." },
+  "404": { "phrase": "Nerasta", "description": "Serveris negali rasti prašomo resurso." },
+  "429": { "phrase": "Per daug užklausų", "description": "Vartotojas per tam tikrą laiką išsiuntė per daug užklausų." },
+  "500": { "phrase": "Vidinė serverio klaida", "description": "Serveris susidūrė su netikėta būsena." },
+  "502": { "phrase": "Blogas šliuzas", "description": "Serveris gavo neteisingą atsakymą iš aukštesnio lygio serverio." },
+  "503": { "phrase": "Paslauga nepasiekiama", "description": "Serveris šiuo metu negali apdoroti užklausos." },
+  "504": { "phrase": "Šliuzo laikas baigėsi", "description": "Serveris laiku negavo atsakymo iš aukštesnio lygio serverio." }
+}

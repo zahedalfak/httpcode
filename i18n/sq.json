@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Vazhdo", "description": "Serveri ka marrë kokat e kërkesës dhe klienti duhet të vazhdojë me dërgimin e trupit të kërkesës." },
+  "200": { "phrase": "OK", "description": "Kërkesa u krye me sukses." },
+  "201": { "phrase": "Krijuar", "description": "Kërkesa u krye me sukses dhe u krijua një burim i ri." },
+  "204": { "phrase": "Pa përmbajtje", "description": "Serveri e përpunoi me sukses kërkesën por nuk kthen asnjë përmbajtje." },
+  "301": { "phrase": "Zhvendosur përgjithmonë", "description": "Burimit të kërkuar i është caktuar një URI e re e përhershme." },
+  "400": { "phrase": "Kërkesë e keqe", "description": "Serveri nuk mund ta përpunojë kërkesën për shkak të një gabimi të klientit." },
+  "401": { "phrase": "I paautorizuar", "description": "Kërkesa kërkon vërtetimin e përdoruesit." },
+  "403": { "phrase": "E ndaluar", "description": "Serveri e kuptoi kërkesën por refuzon ta autorizojë atë." },
+  "404": { "phrase": "Nuk u gjet", "description": "Serveri nuk mund ta gjejë burimin e kërkuar." },
+  "429": { "phrase": "Shumë kërkesa", "description": "Përdoruesi ka dërguar shumë kërkesa në një kohë të caktuar." },
+  "500": { "phrase": "Gabim i brendshëm i serverit", "description": "Serveri hasi në një gjendje të papritur." },
+  "502": { "phrase": "Portë e keqe", "description": "Serveri mori një përgjigje të pavlefshme nga serveri i mësipërm." },
+  "503": { "phrase": "Shërbimi nuk është i disponueshëm", "description": "Serveri aktualisht nuk është në gjendje të trajtojë kërkesën." },
+  "504": { "phrase": "Skadimi i kohës së portës", "description": "Serveri nuk mori një përgjigje në kohë nga serveri i mësipërm." }
+}
