@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Ci gaba", "description": "Sabar ta karbi kan buƙatun kuma ya kamata abokin ciniki ya ci gaba da aika jikin buƙatar." },
+  "200": { "phrase": "Lafiya", "description": "Buƙatar ta yi nasara." },
+  "201": { "phrase": "An ƙirƙira", "description": "Buƙatar ta yi nasara kuma an ƙirƙiri sabon tushe." },
+  "204": { "phrase": "Babu abun ciki", "description": "Sabar ta yi nasarar aiwatar da buƙatar amma ba ta dawo da kowane abun ciki ba." },
+  "301": { "phrase": "An motsa dindindin", "description": "An sanya sabon URI na dindindin ga tushen da aka nema." },
+  "400": { "phrase": "Mummunar buƙata", "description": "Sabar ba za ta iya aiwatar da buƙatar ba saboda kuskuren abokin ciniki." },
+  "401": { "phrase": "Babu izini", "description": "Buƙatar tana buƙatar tantance mai amfani." },
+  "403": { "phrase": "An haramta", "description": "Sabar ta fahimci buƙatar amma ta ƙi ba da izini." },
+  "404": { "phrase": "Ba a samu ba", "description": "Sabar ba za ta iya samun tushen da aka nema ba." },
+  "429": { "phrase": "Buƙatu da yawa", "description": "Mai amfani ya aika buƙatu da yawa a cikin wani lokaci." },
+  "500": { "phrase": "Kuskuren sabar cikin gida", "description": "Sabar ta fuskanci wani yanayi da ba a zata ba." },
+  "502": { "phrase": "Bad Gateway", "description": "Sabar ta sami martani mara kyau daga sabar ta sama." },
+  "503": { "phrase": "Sabis ba ya samuwa", "description": "Sabar ba ta iya sarrafa buƙatar a halin yanzu." },
+  "504": { "phrase": "Gateway Timeout", "description": "Sabar ba ta sami martani a kan lokaci daga sabar ta sama ba." }
+}

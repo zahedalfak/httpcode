@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Tesiwaju", "description": "Olupin ti gba awọn akọle ibeere ati pe alabara yẹ ki o tẹsiwaju lati fi ara ibeere ranṣẹ." },
+  "200": { "phrase": "O dara", "description": "Ibeere naa ti ṣaṣeyọri." },
+  "201": { "phrase": "Ti ṣẹda", "description": "Ibeere naa ṣaṣeyọri ati pe a ti ṣẹda orisun tuntun." },
+  "204": { "phrase": "Ko si akoonu", "description": "Olupin ṣaṣeyọri ni ṣiṣe ibeere naa ṣugbọn ko da akoonu eyikeyi pada." },
+  "301": { "phrase": "Ti gbe titi ayeraye", "description": "A ti fi orisun ti a beere si URI titilai tuntun." },
+  "400": { "phrase": "Ibeere buburu", "description": "Olupin ko le ṣe ilana ibeere naa nitori aṣiṣe alabara." },
+  "401": { "phrase": "Ko ni aṣẹ", "description": "Ibeere naa nilo ijẹrisi olumulo." },
+  "403": { "phrase": "Eewu", "description": "Olupin loye ibeere naa ṣugbọn o kọ lati fun ni aṣẹ." },
+  "404": { "phrase": "A ko rii", "description": "Olupin ko le wa orisun ti a beere." },
+  "429": { "phrase": "Awọn ibeere pọ ju", "description": "Olumulo ti fi awọn ibeere ranṣẹ pupọ ni akoko ti a fun." },
+  "500": { "phrase": "Aṣiṣe olupin inu", "description": "Olupin naa ba ipo ti a ko reti pade." },
+  "502": { "phrase": "Bad Gateway", "description": "Olupin naa gba idahun ti ko tọ lati ọdọ olupin oke." },
+  "503": { "phrase": "Iṣẹ ko wa", "description": "Olupin ko le mu ibeere naa ṣiṣẹ lọwọlọwọ." },
+  "504": { "phrase": "Gateway Timeout", "description": "Olupin ko gba idahun ti akoko lati ọdọ olupin oke." }
+}

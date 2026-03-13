@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Qhubeka", "description": "Iseva ithole ama-header esicelo futhi iklayenti kufanele liqhubeke nokuthumela isidumbu sesicelo." },
+  "200": { "phrase": "KULUNGILE", "description": "Isicelo siphumelele." },
+  "201": { "phrase": "Kudaliwe", "description": "Isicelo siphumelele futhi kudalwe insiza entsha." },
+  "204": { "phrase": "Akukho okuqukethwe", "description": "Iseva isiphrosese isicelo ngempumelelo kodwa ayibuyiseli okuqukethwe." },
+  "301": { "phrase": "Kuthuthelwe unomphela", "description": "Insiza eceliwe inikezwe i-URI entsha yaphakade." },
+  "400": { "phrase": "Isicelo esibi", "description": "Iseva ayikwazi ukuphrosesa isicelo ngenxa yephutha leklayenti." },
+  "401": { "phrase": "Akugunyaziwe", "description": "Isicelo sidinga ukuqinisekiswa komsebenzisi." },
+  "403": { "phrase": "Kunqatshelwe", "description": "Iseva isiqondile isicelo kodwa yenaba ukusinika igunya." },
+  "404": { "phrase": "Akutholakali", "description": "Iseva ayikwazi ukuthola insiza eceliwe." },
+  "429": { "phrase": "Izicelo eziningi kakhulu", "description": "Umsebenzisi uthumele izicelo eziningi kakhulu ngesikhathi esithile." },
+  "500": { "phrase": "Iphutha leseva langaphakathi", "description": "Iseva ihlangabezane nesimo esingalindelekile." },
+  "502": { "phrase": "I-Gateway embi", "description": "Iseva ithole impendulo engavumelekile iseva engenhla." },
+  "503": { "phrase": "Isevisi ayitholakali", "description": "Iseva okwamanje ayikwazi ukuphatha isicelo." },
+  "504": { "phrase": "I-Gateway iphelelwe isikhathi", "description": "Iseva ayitholanga impendulo ngesikhathi iseva engenhla." }
+}
