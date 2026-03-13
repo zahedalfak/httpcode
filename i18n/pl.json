@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Kontynuuj", "description": "Serwer otrzymał nagłówki żądania i klient powinien kontynuować wysyłanie treści żądania." },
+  "200": { "phrase": "OK", "description": "Żądanie zakończyło się powodzeniem." },
+  "201": { "phrase": "Utworzono", "description": "Żądanie zakończyło się powodzeniem i utworzono nowy zasób." },
+  "204": { "phrase": "Brak treści", "description": "Serwer pomyślnie przetworzył żądanie, ale nie zwraca żadnej treści." },
+  "301": { "phrase": "Trwale przeniesiony", "description": "Zasób został na stałe przypisany do nowego identyfikatora URI." },
+  "400": { "phrase": "Błędne żądanie", "description": "Serwer nie może przetworzyć żądania z powodu błędu klienta." },
+  "401": { "phrase": "Nieautoryzowany", "description": "Żądanie wymaga uwierzytelnienia użytkownika." },
+  "403": { "phrase": "Zabroniony", "description": "Serwer zrozumiał żądanie, ale odmawia jego autoryzacji." },
+  "404": { "phrase": "Nie znaleziono", "description": "Serwer nie może znaleźć żądanego zasobu." },
+  "429": { "phrase": "Zbyt wiele żądań", "description": "Użytkownik wysłał zbyt wiele żądań w określonym czasie." },
+  "500": { "phrase": "Wewnętrzny błąd serwera", "description": "Serwer napotkał nieoczekiwaną sytuację." },
+  "502": { "phrase": "Zła brama", "description": "Serwer otrzymał nieprawidłową odpowiedź od serwera nadrzędnego." },
+  "503": { "phrase": "Usługa niedostępna", "description": "Serwer nie może obecnie obsłużyć żądania." },
+  "504": { "phrase": "Limit czasu bramy", "description": "Serwer nie otrzymał odpowiedzi na czas od serwera nadrzędnego." }
+}

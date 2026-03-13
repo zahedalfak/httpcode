@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Doorgaan", "description": "De server heeft de verzoekheaders ontvangen en de client moet doorgaan met het verzenden van de verzoektekst." },
+  "200": { "phrase": "OK", "description": "Het verzoek is geslaagd." },
+  "201": { "phrase": "Aangemaakt", "description": "Het verzoek is geslaagd en er is een nieuwe bron aangemaakt." },
+  "204": { "phrase": "Geen inhoud", "description": "De server heeft het verzoek succesvol verwerkt, maar retourneert geen inhoud." },
+  "301": { "phrase": "Definitief verplaatst", "description": "De aangevraagde bron heeft een nieuwe permanente URI gekregen." },
+  "400": { "phrase": "Slecht verzoek", "description": "De server kan het verzoek niet verwerken vanwege een fout van de client." },
+  "401": { "phrase": "Niet geautoriseerd", "description": "Het verzoek vereist gebruikersauthenticatie." },
+  "403": { "phrase": "Verboden", "description": "De server begreep het verzoek, maar weigert het te autoriseren." },
+  "404": { "phrase": "Niet gevonden", "description": "De server kan de aangevraagde bron niet vinden." },
+  "429": { "phrase": "Te veel verzoeken", "description": "De gebruiker heeft te veel verzoeken verzonden in een bepaalde tijd." },
+  "500": { "phrase": "Interne serverfout", "description": "De server is een onverwachte conditie tegengekomen." },
+  "502": { "phrase": "Bad Gateway", "description": "De server ontving een ongeldig antwoord van de upstream-server." },
+  "503": { "phrase": "Service niet beschikbaar", "description": "De server is momenteel niet in staat om het verzoek af te handelen." },
+  "504": { "phrase": "Gateway-timeout", "description": "De server heeft niet tijdig een reactie ontvangen van de upstream-server." }
+}

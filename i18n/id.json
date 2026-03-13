@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Lanjutkan", "description": "Server telah menerima header permintaan dan klien harus melanjutkan untuk mengirim isi permintaan." },
+  "200": { "phrase": "OK", "description": "Permintaan berhasil." },
+  "201": { "phrase": "Dibuat", "description": "Permintaan berhasil dan sumber daya baru telah dibuat." },
+  "204": { "phrase": "Tanpa Konten", "description": "Server berhasil memproses permintaan tetapi tidak mengembalikan konten apa pun." },
+  "301": { "phrase": "Pindah Secara Permanen", "description": "Sumber daya yang diminta telah diberi URI permanen baru." },
+  "400": { "phrase": "Permintaan Buruk", "description": "Server tidak dapat memproses permintaan karena kesalahan klien." },
+  "401": { "phrase": "Tidak Sah", "description": "Permintaan memerlukan otentikasi pengguna." },
+  "403": { "phrase": "Dilarang", "description": "Server memahami permintaan tetapi menolak untuk mengotorisasinya." },
+  "404": { "phrase": "Tidak Ditemukan", "description": "Server tidak dapat menemukan sumber daya yang diminta." },
+  "429": { "phrase": "Terlalu Banyak Permintaan", "description": "Pengguna telah mengirim terlalu banyak permintaan dalam waktu tertentu." },
+  "500": { "phrase": "Kesalahan Server Internal", "description": "Server mengalami kondisi yang tidak terduga." },
+  "502": { "phrase": "Gateway Buruk", "description": "Server menerima respons yang tidak valid dari server upstream." },
+  "503": { "phrase": "Layanan Tidak Tersedia", "description": "Server saat ini tidak dapat menangani permintaan (karena kelebihan beban atau pemeliharaan)." },
+  "504": { "phrase": "Waktu Habis Gateway", "description": "Server tidak menerima respons tepat waktu dari server upstream." }
+}
