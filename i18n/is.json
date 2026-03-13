@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Halda áfram", "description": "Netþjónninn hefur móttekið beiðnihausa og biðlarinn ætti að halda áfram að senda beiðni." },
+  "200": { "phrase": "Í lagi", "description": "Beiðnin tókst." },
+  "201": { "phrase": "Búið til", "description": "Beiðnin tókst og ný auðlind var búin til." },
+  "204": { "phrase": "Ekkert innihald", "description": "Netþjónninn tókst að vinna úr beiðninni en skilar engu innihaldi." },
+  "301": { "phrase": "Flutt varanlega", "description": "Umbeðin auðlind hefur fengið nýja varanlega URI." },
+  "400": { "phrase": "Slæm beiðni", "description": "Netþjónninn getur ekki unnið úr beiðninni vegna villu hjá biðlara." },
+  "401": { "phrase": "Óheimilt", "description": "Beiðnin krefst auðkenningar notanda." },
+  "403": { "phrase": "Bannað", "description": "Netþjónninn skildi beiðnina en neitar að heimila hana." },
+  "404": { "phrase": "Fannst ekki", "description": "Netþjónninn getur ekki fundið umbeðna auðlind." },
+  "429": { "phrase": "Of margar beiðnir", "description": "Notandinn hefur sent of margar beiðnir á ákveðnum tíma." },
+  "500": { "phrase": "Innri villa á netþjóni", "description": "Netþjónninn lenti í óvæntum aðstæðum." },
+  "502": { "phrase": "Slæmt hlið", "description": "Netþjónninn fékk ógilt svar frá yfirþjóni." },
+  "503": { "phrase": "Þjónusta ekki tiltæk", "description": "Netþjónninn er ekki fær um að sinna beiðninni eins og er." },
+  "504": { "phrase": "Tímamörk á hliði", "description": "Netþjónninn fékk ekki svar í tæka tíð frá yfirþjóni." }
+}

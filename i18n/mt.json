@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Kompli", "description": "Is-server irċieva l-headers tat-talba u l-klijent għandu jkompli jibgħat il-body." },
+  "200": { "phrase": "OK", "description": "It-talba kienet suċċess." },
+  "201": { "phrase": "Maħluq", "description": "It-talba kienet suċċess u nħoloq riżors ġdid." },
+  "204": { "phrase": "L-ebda kontenut", "description": "Is-server ipproċessa t-talba b'suċċess iżda ma jirritorna l-ebda kontenut." },
+  "301": { "phrase": "Imċaqlaq b'mod permanenti", "description": "Ir-riżors mitlub ġie assenjat URI permanenti ġdid." },
+  "400": { "phrase": "Talba ħażina", "description": "Is-server ma jistax jipproċessa t-talba minħabba żball tal-klijent." },
+  "401": { "phrase": "Mhux awtorizzat", "description": "It-talba teħtieġ awtentikazzjoni tal-utent." },
+  "403": { "phrase": "Ipprojbit", "description": "Is-server fehem it-talba iżda jirrifjuta li jawtorizzaha." },
+  "404": { "phrase": "Mhux misjub", "description": "Is-server ma jistax isib ir-riżors mitlub." },
+  "429": { "phrase": "Wisq talbiet", "description": "L-utent bagħat wisq talbiet f'ċertu żmien." },
+  "500": { "phrase": "Żball intern tas-server", "description": "Is-server iltaqa' ma' kundizzjoni mhux mistennija." },
+  "502": { "phrase": "Bad Gateway", "description": "Is-server irċieva tweġiba invalida mis-server upstream." },
+  "503": { "phrase": "Servizz mhux disponibbli", "description": "Is-server bħalissa mhuwiex kapaċi jimmaniġġja t-talba." },
+  "504": { "phrase": "Gateway Timeout", "description": "Is-server ma rċievax tweġiba f'waqtha mis-server upstream." }
+}

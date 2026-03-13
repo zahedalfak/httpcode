@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continuar", "description": "O servidor recibiu as cabeceiras da solicitude e o cliente debe continuar enviando o corpo." },
+  "200": { "phrase": "Aceptar", "description": "A solicitude completouse con éxito." },
+  "201": { "phrase": "Creado", "description": "A solicitude completouse e creouse un novo recurso." },
+  "204": { "phrase": "Sen contido", "description": "O servidor procesou correctamente a solicitude pero no retorna ningún contido." },
+  "301": { "phrase": "Movido permanentemente", "description": "O recurso solicitado asignouse a un novo URI permanente." },
+  "400": { "phrase": "Solicitude incorrecta", "description": "O servidor non pode procesar a solicitude debido a un erro do cliente." },
+  "401": { "phrase": "Non autorizado", "description": "A solicitude require autenticación do usuario." },
+  "403": { "phrase": "Prohibido", "description": "O servidor entendeu a solicitude pero négase a autorizala." },
+  "404": { "phrase": "Non atopado", "description": "O servidor non pode atopar o recurso solicitado." },
+  "429": { "phrase": "Demasiadas solicitudes", "description": "O usuario enviou demasiadas solicitudes nun tempo determinado." },
+  "500": { "phrase": "Erro interno do servidor", "description": "O servidor atopou unha condición inesperada." },
+  "502": { "phrase": "Porta de enlace incorrecta", "description": "O servidor recibiu unha resposta non válida do servidor upstream." },
+  "503": { "phrase": "Servizo non dispoñible", "description": "O servidor non está preparado para xestionar a solicitude." },
+  "504": { "phrase": "Tempo de espera da porta de enlace", "description": "O servidor non recibiu unha resposta a tempo do servidor upstream." }
+}
