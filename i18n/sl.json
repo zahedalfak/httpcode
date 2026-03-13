@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Nadaljuj", "description": "Strežnik je prejel glave zahtevka, odjemalec pa mora nadaljevati s pošiljanjem telesa zahtevka." },
+  "200": { "phrase": "V redu", "description": "Zahtevek je uspel." },
+  "201": { "phrase": "Ustvarjeno", "description": "Zahtevek je uspel in nov vir je bil ustvarjen." },
+  "204": { "phrase": "Brez vsebine", "description": "Strežnik je uspešno obdelal zahtevek, vendar ne vrača nobene vsebine." },
+  "301": { "phrase": "Trajno premaknjeno", "description": "Zahtevanemu viru je bil dodeljen nov trajni URI." },
+  "400": { "phrase": "Slab zahtevek", "description": "Strežnik ne more obdelati zahtevka zaradi napake odjemalca." },
+  "401": { "phrase": "Nepooblaščeno", "description": "Za zahtevek je potrebna avtentikacija uporabnika." },
+  "403": { "phrase": "Prepovedano", "description": "Strežnik je razumel zahtevek, vendar zavrača avtorizacijo." },
+  "404": { "phrase": "Ni najdeno", "description": "Strežnik ne najde zahtevanega vira." },
+  "429": { "phrase": "Preveč zahtevkov", "description": "Uporabnik je v določenem času poslal preveč zahtevkov." },
+  "500": { "phrase": "Notranja napaka strežnika", "description": "Strežnik je naletel na nepričakovano stanje." },
+  "502": { "phrase": "Slab prehod", "description": "Strežnik je prejel neveljaven odgovor od nadrejenega strežnika." },
+  "503": { "phrase": "Storitev ni na voljo", "description": "Strežnik trenutno ne more obdelati zahtevka." },
+  "504": { "phrase": "Časovna omejitev prehoda", "description": "Strežnik ni pravočasno prejel odgovora od nadrejenega strežnika." }
+}

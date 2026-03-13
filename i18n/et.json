@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Jätka", "description": "Server on kätte saanud päringu päised ja klient peab jätkama päringu keha saatmist." },
+  "200": { "phrase": "OK", "description": "Päring on õnnestunud." },
+  "201": { "phrase": "Loodud", "description": "Päring on õnnestunud ja uus ressurss on loodud." },
+  "204": { "phrase": "Sisu puudub", "description": "Server on päringu edukalt töödeldud, kuid ei tagasta sisu." },
+  "301": { "phrase": "Jäädavalt liigutatud", "description": "Taotletud ressursile on määratud uus püsiv URI." },
+  "400": { "phrase": "Halb päring", "description": "Server ei saa päringut kliendi vea tõttu töödelda." },
+  "401": { "phrase": "Volitamata", "description": "Päring nõuab kasutaja autentimist." },
+  "403": { "phrase": "Keelatud", "description": "Server sai päringust aru, kuid keeldub seda volitamast." },
+  "404": { "phrase": "Ei leitud", "description": "Server ei leia taotletud ressurssi." },
+  "429": { "phrase": "Liiga palju päringuid", "description": "Kasutaja on saatnud teatud aja jooksul liiga palju päringuid." },
+  "500": { "phrase": "Sisemine serveriviga", "description": "Server sattus ootamatusse olukorda." },
+  "502": { "phrase": "Vigane lüüs", "description": "Server sai ülemisest serverist vigase vastuse." },
+  "503": { "phrase": "Teenus pole saadaval", "description": "Server ei ole praegu suuteline päringut käsitlema." },
+  "504": { "phrase": "Lüüsi ajalõpp", "description": "Server ei saanud ülemisest serverist õigeaegselt vastust." }
+}

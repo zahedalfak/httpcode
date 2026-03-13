@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Turpināt", "description": "Serveris ir saņēmis pieprasījuma galvenes, un klientam ir jāturpina pieprasījuma pamatteksta sūtīšana." },
+  "200": { "phrase": "Labi", "description": "Pieprasījums ir izdevies." },
+  "201": { "phrase": "Izveidots", "description": "Pieprasījums ir izdevies un ir izveidots jauns resurss." },
+  "204": { "phrase": "Nav satura", "description": "Serveris ir veiksmīgi apstrādājis pieprasījumu, bet neatgriež nekādu saturu." },
+  "301": { "phrase": "Pārvietots pastāvīgi", "description": "Pieprasītajam resursam ir piešķirts jauns pastāvīgs URI." },
+  "400": { "phrase": "Slikts pieprasījums", "description": "Serveris nevar apstrādāt pieprasījumu klienta kļūdas dēļ." },
+  "401": { "phrase": "Neautorizēts", "description": "Pieprasījumam nepieciešama lietotāja autentifikācija." },
+  "403": { "phrase": "Aizliegts", "description": "Serveris saprata pieprasījumu, bet atteicās to autorizēt." },
+  "404": { "phrase": "Nav atrasts", "description": "Serveris nevar atrast pieprasīto resursu." },
+  "429": { "phrase": "Pārāk daudz pieprasījumu", "description": "Lietotājs noteiktā laikā ir nosūtījis pārāk daudz pieprasījumu." },
+  "500": { "phrase": "Iekšējā servera kļūda", "description": "Serveris saskārās ar neparedzētu stāvokli." },
+  "502": { "phrase": "Slikta vārteja", "description": "Serveris saņēma nederīgu atbildi no augšupējā servera." },
+  "503": { "phrase": "Pakalpojums nav pieejams", "description": "Serveris pašlaik nevar apstrādāt pieprasījumu." },
+  "504": { "phrase": "Vārtejas noildze", "description": "Serveris savlaicīgi nesaņēma atbildi no augšupējā servera." }
+}
