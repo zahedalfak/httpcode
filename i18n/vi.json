@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Tiếp tục", "description": "Máy chủ đã nhận được các tiêu đề yêu cầu và máy khách nên tiếp tục gửi thân yêu cầu." },
+  "200": { "phrase": "OK", "description": "Yêu cầu đã thành công." },
+  "201": { "phrase": "Đã tạo", "description": "Yêu cầu đã thành công và một tài nguyên mới đã được tạo." },
+  "204": { "phrase": "Không có nội dung", "description": "Máy chủ đã xử lý thành công yêu cầu nhưng không trả về bất kỳ nội dung nào." },
+  "301": { "phrase": "Đã chuyển vĩnh viễn", "description": "Tài nguyên được yêu cầu đã được gán một URI vĩnh viễn mới." },
+  "400": { "phrase": "Yêu cầu tồi", "description": "Máy chủ không thể xử lý yêu cầu do lỗi của máy khách." },
+  "401": { "phrase": "Chưa xác thực", "description": "Yêu cầu yêu cầu xác thực người dùng." },
+  "403": { "phrase": "Bị cấm", "description": "Máy chủ đã hiểu yêu cầu nhưng từ chối cho phép." },
+  "404": { "phrase": "Không tìm thấy", "description": "Máy chủ không thể tìm thấy tài nguyên được yêu cầu." },
+  "429": { "phrase": "Quá nhiều yêu cầu", "description": "Người dùng đã gửi quá nhiều yêu cầu trong một khoảng thời gian nhất định." },
+  "500": { "phrase": "Lỗi máy chủ nội bộ", "description": "Máy chủ đã gặp phải một điều kiện không mong muốn." },
+  "502": { "phrase": "Cổng xấu", "description": "Máy chủ nhận được phản hồi không hợp lệ từ máy chủ cấp trên." },
+  "503": { "phrase": "Dịch vụ không khả dụng", "description": "Máy chủ hiện không thể xử lý yêu cầu (do quá tải hoặc bảo trì)." },
+  "504": { "phrase": "Hết thời gian cổng", "description": "Máy chủ không nhận được phản hồi kịp thời từ máy chủ cấp trên." }
+}
