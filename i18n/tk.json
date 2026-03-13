@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Dowam et", "description": "Serwer sorag sözbaşylaryny aldy we müşderi sorag göwresini ibermegi dowam etdirmeli." },
+  "200": { "phrase": "OK", "description": "Sorag şowly boldy." },
+  "201": { "phrase": "Döredildi", "description": "Sorag şowly boldy we täze serişde döredildi." },
+  "204": { "phrase": "Mazmun ýok", "description": "Serwer soragy şowly işledi, ýöne hiç hili mazmun yzyna gaýtarmaýar." },
+  "301": { "phrase": "Hemişelik göçürildi", "description": "Soralan serişdä täze hemişelik URI bellenildi." },
+  "400": { "phrase": "Ýalňyş sorag", "description": "Serwer müşderi ýalňyşlygy sebäpli soragy işläp bilmeýär." },
+  "401": { "phrase": "Rugsat berilmedi", "description": "Sorag ulanyjy awtentifikasiýasyny talap edýär." },
+  "403": { "phrase": "Gadagan edildi", "description": "Serwer soragy düşündi, ýöne rugsat bermekden ýüz öwürýär." },
+  "404": { "phrase": "Tapylmady", "description": "Serwer soralan serişdäni tapyp bilmeýär." },
+  "429": { "phrase": "Gaty köp sorag", "description": "Ulanyjy belli bir wagtyň içinde gaty köp sorag iberdi." },
+  "500": { "phrase": "Serweriň içki ýalňyşlygy", "description": "Serwer garaşylmadyk ýagdaý bilen ýüzbe-ýüz boldy." },
+  "502": { "phrase": "Erbet şlýuz", "description": "Serwer ýokarky serwerden nädogry jogap aldy." },
+  "503": { "phrase": "Hyzmat elýeterli däl", "description": "Serwer häzirki wagtda soragy işläp bilmeýär." },
+  "504": { "phrase": "Şlýuz wagty gutardy", "description": "Serwer ýokarky serwerden wagtynda jogap almady." }
+}

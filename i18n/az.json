@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Davam et", "description": "Server sorğu başlıqlarını aldı və müştəri sorğu bədənini göndərməyə davam etməlidir." },
+  "200": { "phrase": "OK", "description": "Sorğu uğurla tamamlandı." },
+  "201": { "phrase": "Yaradıldı", "description": "Sorğu uğurla tamamlandı və yeni resurs yaradıldı." },
+  "204": { "phrase": "Məzmun yoxdur", "description": "Server sorğunu uğurla emal etdi, lakin heç bir məzmun qaytarmır." },
+  "301": { "phrase": "Daimi köçürüldü", "description": "Sorğu edilən resursa yeni daimi URI təyin edilmişdir." },
+  "400": { "phrase": "Yanlış sorğu", "description": "Server müştəri xətası səbəbindən sorğunu emal edə bilmir." },
+  "401": { "phrase": "İcazəsiz", "description": "Sorğu istifadəçi autentifikasiyasını tələb edir." },
+  "403": { "phrase": "Qadağandır", "description": "Server sorğunu başa düşdü, lakin icazə verməkdən imtina edir." },
+  "404": { "phrase": "Tapılmadı", "description": "Server sorğu edilən resursu tapa bilmir." },
+  "429": { "phrase": "Çox sayda sorğu", "description": "İstifadəçi müəyyən bir müddət ərzində çox sayda sorğu göndərmişdir." },
+  "500": { "phrase": "Daxili server xətası", "description": "Server gözlənilməz bir vəziyyətlə qarşılaşdı." },
+  "502": { "phrase": "Səhv şlüz", "description": "Server yuxarı serverdən etibarsız cavab aldı." },
+  "503": { "phrase": "Xidmət mövcud deyil", "description": "Server hazırda sorğunu idarə edə bilmir." },
+  "504": { "phrase": "Şlüz vaxtı bitdi", "description": "Server yuxarı serverdən vaxtında cavab almadı." }
+}
