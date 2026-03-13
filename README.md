@@ -9,7 +9,7 @@ A comprehensive reference for HTTP status codes, including standard IETF codes a
 - **CLI Tool**: A simple Python script to search and filter codes quickly.
 - **Reference Links**: Direct MDN links for all standard codes.
 - **Developer-Friendly**: Data stored in a clean `codes.json` format.
-- **i18n Support**: Descriptions available in 18+ languages (EN, FA, AR, ZH, ES, FR, DE, JA, RU, PT, TR, HI, IT, KO, VI, NL, PL, ID).
+- **i18n Support**: Descriptions available in 22+ languages (EN, FA, AR, ZH, ES, FR, DE, JA, RU, PT, TR, HI, IT, KO, VI, NL, PL, ID, TH, EL, SV, RO).
 - **Guides**: Multi-language guides available in `i18n/guides/`.
 - **Exporting**: Export search results to JSON, CSV, or Markdown via CLI.
 - **Web UI**: Modern, beautiful web interface to explore codes in your browser.

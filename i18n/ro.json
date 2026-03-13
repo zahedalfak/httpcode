@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continuă", "description": "Serverul a primit antetele și clientul trebuie să continue cu trimiterea corpului." },
+  "200": { "phrase": "OK", "description": "Solicitarea a reușit." },
+  "201": { "phrase": "Creat", "description": "Solicitarea a reușit și a fost creată o nouă resursă." },
+  "204": { "phrase": "Fără Conținut", "description": "Serverul a procesat solicitarea cu succes, dar nu returnează niciun conținut." },
+  "301": { "phrase": "Mutat Permanent", "description": "Resursa solicitată a primit un nou URI permanent." },
+  "400": { "phrase": "Solicitare Greșită", "description": "Serverul nu poate procesa solicitarea din cauza unei erori de client." },
+  "401": { "phrase": "Neautorizat", "description": "Solicitarea necesită autentificarea utilizatorului." },
+  "403": { "phrase": "Interzis", "description": "Serverul a înțeles solicitarea, dar refuză să o autorizeze." },
+  "404": { "phrase": "Nu a fost găsit", "description": "Serverul nu poate găsi resursa solicitată." },
+  "429": { "phrase": "Prea multe solicitări", "description": "Utilizatorul a trimis prea multe solicitări într-un anumit timp." },
+  "500": { "phrase": "Eroare Internă de Server", "description": "Serverul a întâmpinat o condiție neprevăzută." },
+  "502": { "phrase": "Bad Gateway", "description": "Serverul a primit un răspuns nevalid de la serverul upstream." },
+  "503": { "phrase": "Serviciu Indisponibil", "description": "Serverul nu este pregătit să gestioneze solicitarea (supraîncărcare sau întreținere)." },
+  "504": { "phrase": "Gateway Timeout", "description": "Serverul nu a primit un răspuns la timp de la serverul upstream." }
+}

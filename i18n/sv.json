@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Fortsätt", "description": "Servern har tagit emot begäranshuvudena och klienten bör fortsätta med meddelandekroppen." },
+  "200": { "phrase": "OK", "description": "Begäran har lyckats." },
+  "201": { "phrase": "Skapad", "description": "Begäran har lyckats och en ny resurs har skapats." },
+  "204": { "phrase": "Inget innehåll", "description": "Servern bearbetade begäran framgångsrikt, men returnerar inget innehåll." },
+  "301": { "phrase": "Flyttad permanent", "description": "Den begärda resursen har tilldelats en ny permanent URI." },
+  "400": { "phrase": "Felaktig begäran", "description": "Servern kan inte bearbeta begäran på grund av ett klientfel." },
+  "401": { "phrase": "Obehörig", "description": "Begäran kräver användarautentisering." },
+  "403": { "phrase": "Förbjudet", "description": "Servern förstod begäran, men vägrar att auktorisera den." },
+  "404": { "phrase": "Hittades inte", "description": "Servern kan inte hitta den begärda resursen." },
+  "429": { "phrase": "För många begäranden", "description": "Användaren har skickat för många begäranden under en viss tid." },
+  "500": { "phrase": "Internt serverfel", "description": "Servern stötte på ett oväntat tillstånd." },
+  "502": { "phrase": "Bad Gateway", "description": "Servern fick ett ogiltigt svar från den överordnade servern." },
+  "503": { "phrase": "Tjänsten är otillgänglig", "description": "Servern kan för närvarande inte hantera begäran (överbelastning eller underhåll)." },
+  "504": { "phrase": "Gateway-timeout", "description": "Servern fick inte ett svar i tid från den överordnade servern." }
+}
