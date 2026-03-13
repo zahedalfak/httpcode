@@ -2,6 +2,7 @@ import json
 import sys
 import os
 import argparse
+import csv
 
 def load_codes():
     file_path = os.path.join(os.path.dirname(__file__), 'codes.json')
@@ -18,7 +19,6 @@ def load_translations(lang):
         with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
-        # Default to empty if language file not found
         return {}
 
 def get_supported_langs():
@@ -33,34 +33,24 @@ def get_supported_langs():
 def search_code(query, codes):
     results = []
     query_str = str(query).lower()
-    
-    # Check if query is a class filter (e.g., 2xx, 4xx)
     is_class_filter = query_str.endswith('xx') and len(query_str) == 3 and query_str[0].isdigit()
     
     for item in codes:
-        # Filter by class (e.g., 2xx)
         if is_class_filter:
             if item['class'].startswith(query_str):
                 results.append(item)
             continue
-
-        # Search by code (exact match)
         if query_str.isdigit() and str(item['code']) == query_str:
             results.append(item)
             continue
-            
-        # Search by phrase or description (partial match)
         if query_str in item['phrase'].lower() or query_str in item['description'].lower():
             results.append(item)
-            
     return results
 
 def format_result(item, translations):
     code_str = str(item['code'])
     phrase = item['phrase']
     description = item['description']
-    
-    # Override with translation if available
     if code_str in translations:
         phrase = translations[code_str].get('phrase', phrase)
         description = translations[code_str].get('description', description)
@@ -75,11 +65,45 @@ def format_result(item, translations):
     output += f"{'-' * 40}"
     return output
 
+def export_results(results, format, output_file, translations):
+    if format == 'json':
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(results, f, indent=2, ensure_ascii=False)
+    elif format == 'csv':
+        keys = ['code', 'phrase', 'class', 'description', 'mdn_link']
+        with open(output_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=keys)
+            writer.writeheader()
+            for res in results:
+                # Use translations for export if available
+                row = res.copy()
+                code_str = str(row['code'])
+                if code_str in translations:
+                    row['phrase'] = translations[code_str].get('phrase', row['phrase'])
+                    row['description'] = translations[code_str].get('description', row['description'])
+                writer.writerow({k: row.get(k, '') for k in keys})
+    elif format == 'md':
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write("# HTTP Status Codes Export\n\n")
+            f.write("| Code | Phrase | Class | Description |\n")
+            f.write("|------|--------|-------|-------------|\n")
+            for res in results:
+                phrase = res['phrase']
+                desc = res['description']
+                code_str = str(res['code'])
+                if code_str in translations:
+                    phrase = translations[code_str].get('phrase', phrase)
+                    desc = translations[code_str].get('description', desc)
+                f.write(f"| {res['code']} | {phrase} | {res['class']} | {desc} |\n")
+    print(f"Successfully exported {len(results)} results to {output_file}")
+
 def main():
     parser = argparse.ArgumentParser(description="Search for HTTP status codes.")
     parser.add_argument('query', nargs='?', help="The HTTP code, keyword, or class (e.g., 404, timeout, 4xx)")
     parser.add_argument('--lang', default='en', help="The language for descriptions (e.g., en, fa)")
     parser.add_argument('--list-langs', action='store_true', help="List all supported languages")
+    parser.add_argument('--export', choices=['json', 'csv', 'md'], help="Export format")
+    parser.add_argument('--out', help="Output file name")
     
     args = parser.parse_args()
 
@@ -93,6 +117,7 @@ def main():
     if not args.query:
         parser.print_help()
         sys.exit(1)
+
     codes = load_codes()
     translations = load_translations(args.lang)
     
@@ -104,9 +129,13 @@ def main():
     if not results:
         print(f"No results found for '{args.query}'.")
     else:
-        print(f"Found {len(results)} results in '{args.lang}':\n")
-        for res in results:
-            print(format_result(res, translations))
+        if args.export:
+            out_file = args.out or f"export_{args.query}.{args.export}"
+            export_results(results, args.export, out_file, translations)
+        else:
+            print(f"Found {len(results)} results in '{args.lang}':\n")
+            for res in results:
+                print(format_result(res, translations))
 
 if __name__ == "__main__":
     main()

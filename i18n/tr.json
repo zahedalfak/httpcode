@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Devam Et", "description": "Sunucu istek başlıklarını aldı ve istemci istek gövdesini göndermeye devam etmeli." },
+  "200": { "phrase": "Tamam", "description": "İstek başarıyla tamamlandı." },
+  "201": { "phrase": "Oluşturuldu", "description": "İstek başarılı oldu ve yeni bir kaynak oluşturuldu." },
+  "204": { "phrase": "İçerik Yok", "description": "Sunucu isteği başarıyla işledi ancak herhangi bir içerik döndürmüyor." },
+  "301": { "phrase": "Kalıcı Olarak Taşındı", "description": "İstenen kaynağa yeni bir kalıcı URI atandı." },
+  "400": { "phrase": "Geçersiz İstek", "description": "Sunucu, istemci hatası nedeniyle isteği işleyemiyor." },
+  "401": { "phrase": "Yetkisiz", "description": "İstek kullanıcı kimlik doğrulaması gerektiriyor." },
+  "403": { "phrase": "Yasaklandı", "description": "Sunucu isteği anladı ancak yetkilendirmeyi reddediyor." },
+  "404": { "phrase": "Bulunamadı", "description": "Sunucu istenen kaynağı bulamıyor." },
+  "429": { "phrase": "Çok Fazla İstek", "description": "Kullanıcı belirli bir sürede çok fazla istek gönderdi." },
+  "500": { "phrase": "Sunucu İçi Hatası", "description": "Sunucu beklenmedik bir durumla karşılaştı." },
+  "502": { "phrase": "Kötü Ağ Geçidi", "description": "Sunucu, üst sunucudan geçersiz bir yanıt aldı." },
+  "503": { "phrase": "Hizmet Kullanılamıyor", "description": "Sunucu şu anda isteği işleyemiyor (aşırı yük veya bakım nedeniyle)." },
+  "504": { "phrase": "Ağ Geçidi Zaman Aşımı", "description": "Sunucu, üst sunucudan zamanında yanıt alamadı." }
+}

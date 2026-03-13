@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continua", "description": "Il server ha ricevuto le intestazioni e il client deve procedere all'invio del corpo." },
+  "200": { "phrase": "OK", "description": "La richiesta è andata a buon fine." },
+  "201": { "phrase": "Creato", "description": "La richiesta è andata a buon fine e una nuova risorsa è stata creata." },
+  "204": { "phrase": "Nessun Contenuto", "description": "Il server ha elaborato con successo la richiesta ma non restituisce alcun contenuto." },
+  "301": { "phrase": "Spostato Permanentemente", "description": "La risorsa richiesta è stata assegnata a una nuova URI permanente." },
+  "400": { "phrase": "Richiesta Errata", "description": "Il server non può elaborare la richiesta a causa di un errore del client." },
+  "401": { "phrase": "Non Autorizzato", "description": "La richiesta richiede l'autenticazione dell'utente." },
+  "403": { "phrase": "Proibito", "description": "Il server ha compreso la richiesta ma rifiuta di autorizzarla." },
+  "404": { "phrase": "Non Trovato", "description": "Il server non riesce a trovare la risorsa richiesta." },
+  "429": { "phrase": "Troppe Richieste", "description": "L'utente ha inviato troppe richieste in un certo periodo di tempo." },
+  "500": { "phrase": "Errore Interno del Server", "description": "Il server ha riscontrato una condizione imprevista." },
+  "502": { "phrase": "Bad Gateway", "description": "Il server ha ricevuto una risposta non valida dal server a monte." },
+  "503": { "phrase": "Servizio Non Disponibile", "description": "Il server non è pronto per gestire la richiesta (sovraccarico o manutenzione)." },
+  "504": { "phrase": "Gateway Timeout", "description": "Il server non ha ricevuto una risposta tempestiva dal server a monte." }
+}

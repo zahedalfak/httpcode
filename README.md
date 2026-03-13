@@ -9,14 +9,15 @@ A comprehensive reference for HTTP status codes, including standard IETF codes a
 - **CLI Tool**: A simple Python script to search and filter codes quickly.
 - **Reference Links**: Direct MDN links for all standard codes.
 - **Developer-Friendly**: Data stored in a clean `codes.json` format.
-- **i18n Support**: Descriptions available in multiple languages (EN, FA, AR, ZH, ES, FR, DE, JA, RU).
+- **i18n Support**: Descriptions available in multiple languages (EN, FA, AR, ZH, ES, FR, DE, JA, RU, PT, TR, HI, IT).
 - **Guides**: Multi-language guides available in `i18n/guides/`.
+- **Exporting**: Export search results to JSON, CSV, or Markdown via CLI.
 
 ## 🛠 Usage
 
 ### Using the CLI Tool
 
-You can search by code, keyword, or filter by class (1xx, 2xx, etc.).
+You can search by code, keyword, filter by class, or export results.
 
 ```bash
 # List supported languages
@@ -25,14 +26,11 @@ python httpcode.py --list-langs
 # Search by specific code in a specific language
 python httpcode.py 404 --lang fa
 
-# Search by keyword
-python httpcode.py timeout
+# Export all 4xx errors to a Markdown file
+python httpcode.py 4xx --export md --out errors.md
 
-# Filter by class
-python httpcode.py 5xx
-
-# List all codes
-python httpcode.py all
+# Export all codes to a CSV file in Turkish
+python httpcode.py all --export csv --lang tr --out codes_tr.csv
 ```
 
 ### Using the JSON Data

@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continuar", "description": "O servidor recebeu os cabeçalhos da requisição e o cliente deve continuar a enviar o corpo." },
+  "200": { "phrase": "OK", "description": "A requisição foi bem-sucedida." },
+  "201": { "phrase": "Criado", "description": "A requisição foi bem-sucedida e um novo recurso foi criado." },
+  "204": { "phrase": "Sem Conteúdo", "description": "O servidor processou a requisição com sucesso, mas não está retornando nenhum conteúdo." },
+  "301": { "phrase": "Movido Permanentemente", "description": "O recurso solicitado recebeu um novo URI permanente." },
+  "400": { "phrase": "Requisição Inválida", "description": "O servidor não pode processar a requisição devido a um erro do cliente." },
+  "401": { "phrase": "Não Autorizado", "description": "A requisição requer autenticação do usuário." },
+  "403": { "phrase": "Proibido", "description": "O servidor entendeu a requisição, mas se recusa a autorizá-la." },
+  "404": { "phrase": "Não Encontrado", "description": "O servidor não consegue encontrar o recurso solicitado." },
+  "429": { "phrase": "Muitas Requisições", "description": "O usuário enviou muitas requisições em um determinado tempo." },
+  "500": { "phrase": "Erro Interno do Servidor", "description": "O servidor encontrou uma condição inesperada." },
+  "502": { "phrase": "Bad Gateway", "description": "O servidor recebeu uma resposta inválida do servidor upstream." },
+  "503": { "phrase": "Serviço Indisponível", "description": "O servidor não está pronto para lidar com a requisição (sobrecarga ou manutenção)." },
+  "504": { "phrase": "Gateway Timeout", "description": "O servidor não recebeu uma resposta a tempo do servidor upstream." }
+}
