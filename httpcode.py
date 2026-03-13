@@ -1,6 +1,7 @@
 import json
 import sys
 import os
+import argparse
 
 def load_codes():
     file_path = os.path.join(os.path.dirname(__file__), 'codes.json')
@@ -10,6 +11,15 @@ def load_codes():
     except FileNotFoundError:
         print(f"Error: {file_path} not found.")
         sys.exit(1)
+
+def load_translations(lang):
+    file_path = os.path.join(os.path.dirname(__file__), 'i18n', f'{lang}.json')
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        # Default to empty if language file not found
+        return {}
 
 def search_code(query, codes):
     results = []
@@ -36,11 +46,20 @@ def search_code(query, codes):
             
     return results
 
-def format_result(item):
+def format_result(item, translations):
+    code_str = str(item['code'])
+    phrase = item['phrase']
+    description = item['description']
+    
+    # Override with translation if available
+    if code_str in translations:
+        phrase = translations[code_str].get('phrase', phrase)
+        description = translations[code_str].get('description', description)
+
     output = (
-        f"\033[1;32mHTTP {item['code']}\033[0m: \033[1;36m{item['phrase']}\033[0m\n"
+        f"\033[1;32mHTTP {item['code']}\033[0m: \033[1;36m{phrase}\033[0m\n"
         f"Class: {item['class']}\n"
-        f"Description: {item['description']}\n"
+        f"Description: {description}\n"
     )
     if 'mdn_link' in item:
         output += f"MDN: \033[4;34m{item['mdn_link']}\033[0m\n"
@@ -48,29 +67,29 @@ def format_result(item):
     return output
 
 def main():
+    parser = argparse.ArgumentParser(description="Search for HTTP status codes.")
+    parser.add_argument('query', help="The HTTP code, keyword, or class (e.g., 404, timeout, 4xx)")
+    parser.add_argument('--lang', default='en', help="The language for descriptions (e.g., en, fa)")
+    
     if len(sys.argv) < 2:
-        print("Usage: python httpcode.py [code | keyword | class | all]")
-        print("Examples:")
-        print("  python httpcode.py 404       # Search by code")
-        print("  python httpcode.py timeout   # Search by keyword")
-        print("  python httpcode.py 4xx       # Filter by class")
-        print("  python httpcode.py all       # List all codes")
+        parser.print_help()
         sys.exit(1)
 
-    query = sys.argv[1]
+    args = parser.parse_args()
     codes = load_codes()
+    translations = load_translations(args.lang)
     
-    if query.lower() == 'all':
+    if args.query.lower() == 'all':
         results = codes
     else:
-        results = search_code(query, codes)
+        results = search_code(args.query, codes)
 
     if not results:
-        print(f"No results found for '{query}'.")
+        print(f"No results found for '{args.query}'.")
     else:
-        print(f"Found {len(results)} results:\n")
+        print(f"Found {len(results)} results in '{args.lang}':\n")
         for res in results:
-            print(format_result(res))
+            print(format_result(res, translations))
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,58 @@
+{
+  "100": {
+    "phrase": "Continue",
+    "description": "The server has received the request headers and the client should proceed to send the request body."
+  },
+  "200": {
+    "phrase": "OK",
+    "description": "The request has succeeded."
+  },
+  "201": {
+    "phrase": "Created",
+    "description": "The request has succeeded and a new resource has been created."
+  },
+  "204": {
+    "phrase": "No Content",
+    "description": "The server has successfully fulfilled the request and there is no additional content to send."
+  },
+  "301": {
+    "phrase": "Moved Permanently",
+    "description": "The requested resource has been assigned a new permanent URI."
+  },
+  "400": {
+    "phrase": "Bad Request",
+    "description": "The server cannot or will not process the request due to an apparent client error."
+  },
+  "401": {
+    "phrase": "Unauthorized",
+    "description": "The request requires user authentication."
+  },
+  "403": {
+    "phrase": "Forbidden",
+    "description": "The server understood the request but refuses to authorize it."
+  },
+  "404": {
+    "phrase": "Not Found",
+    "description": "The server can not find the requested resource."
+  },
+  "429": {
+    "phrase": "Too Many Requests",
+    "description": "The user has sent too many requests in a given amount of time."
+  },
+  "500": {
+    "phrase": "Internal Server Error",
+    "description": "The server encountered an unexpected condition that prevented it from fulfilling the request."
+  },
+  "502": {
+    "phrase": "Bad Gateway",
+    "description": "The server received an invalid response from the upstream server."
+  },
+  "503": {
+    "phrase": "Service Unavailable",
+    "description": "The server is currently unable to handle the request due to temporary overloading or maintenance."
+  },
+  "504": {
+    "phrase": "Gateway Timeout",
+    "description": "The server did not receive a timely response from the upstream server."
+  }
+}
