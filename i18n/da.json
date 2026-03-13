@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Fortsæt", "description": "Serveren har modtaget anmodningshovederne, og klienten skal fortsætte med at sende anmodningens krop." },
+  "200": { "phrase": "OK", "description": "Anmodningen lykkedes." },
+  "201": { "phrase": "Oprettet", "description": "Anmodningen lykkedes, og en ny ressource blev oprettet." },
+  "204": { "phrase": "Intet indhold", "description": "Serveren behandlede anmodningen succesfuldt, men returnerer intet indhold." },
+  "301": { "phrase": "Flyttet permanent", "description": "Den anmodede ressource har fået tildelt en ny permanent URI." },
+  "400": { "phrase": "Ugyldig anmodning", "description": "Serveren kan ikke behandle anmodningen på grund av en klientfejl." },
+  "401": { "phrase": "Uautoriseret", "description": "Anmodningen kræver brugerautentificering." },
+  "403": { "phrase": "Forbudt", "description": "Serveren forstod anmodningen, men nægter at autorisere den." },
+  "404": { "phrase": "Ikke fundet", "description": "Serveren kan ikke finde den anmodede ressource." },
+  "429": { "phrase": "For mange anmodninger", "description": "Brugeren har sendt for mange anmodninger inden for en bestemt tid." },
+  "500": { "phrase": "Intern serverfejl", "description": "Serveren stødte på en uventet tilstand." },
+  "502": { "phrase": "Dårlig gateway", "description": "Serveren modtog et ugyldigt svar fra upstream-serveren." },
+  "503": { "phrase": "Tjenesten er utilgængelig", "description": "Serveren er i øjeblikket ikke i stand til at håndtere anmodningen." },
+  "504": { "phrase": "Gateway-timeout", "description": "Serveren modtog ikke et rettidigt svar fra upstream-serveren." }
+}

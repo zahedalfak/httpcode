@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Fortsett", "description": "Serveren har mottatt forespørselshodene og klienten bør fortsette å sende forespørselens kropp." },
+  "200": { "phrase": "OK", "description": "Forespørselen var vellykket." },
+  "201": { "phrase": "Opprettet", "description": "Forespørselen var vellykket og en ny ressurs er opprettet." },
+  "204": { "phrase": "Ikke noe innhold", "description": "Serveren behandlet forespørselen vellykket, men returnerer ikke innhold." },
+  "301": { "phrase": "Flyttet permanent", "description": "Den forespurte ressursen har fått en ny permanent URI." },
+  "400": { "phrase": "Ugyldig forespørsel", "description": "Serveren kan ikke behandle forespørselen på grunn av en klientfeil." },
+  "401": { "phrase": "Uautorisert", "description": "Forespørselen krever brukerautentisering." },
+  "403": { "phrase": "Forbudt", "description": "Serveren forstod forespørselen, men nekter å autorisere den." },
+  "404": { "phrase": "Ikke funnet", "description": "Serveren kan ikke finne den forespurte ressursen." },
+  "429": { "phrase": "For mange forespørsler", "description": "Brukeren har sendt for mange forespørsler i løpet av en viss tid." },
+  "500": { "phrase": "Intern serverfeil", "description": "Serveren har støtt på en uventet tilstand." },
+  "502": { "phrase": "Bad Gateway", "description": "Serveren mottok et ugyldig svar fra upstream-serveren." },
+  "503": { "phrase": "Tjenesten er utilgjengelig", "description": "Serveren er for øyeblikket ikke i stand til å håndtere forespørselen." },
+  "504": { "phrase": "Gateway-timeout", "description": "Serveren mottok ikke svar i tide fra upstream-serveren." }
+}

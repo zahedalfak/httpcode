@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Pokračovat", "description": "Server přijal hlavičky požadavku a klient by měl pokračovat v odesílání těla požadavku." },
+  "200": { "phrase": "OK", "description": "Požadavek byl úspěšný." },
+  "201": { "phrase": "Vytvořeno", "description": "Požadavek byl úspěšný a byl vytvořen nový zdroj." },
+  "204": { "phrase": "Žádný obsah", "description": "Server úspěšně zpracoval požadavek, ale nevrací žádný obsah." },
+  "301": { "phrase": "Trvale přesměrováno", "description": "Požadovanému zdroji byla přiřazena nová permanentní URI." },
+  "400": { "phrase": "Špatný požadavek", "description": "Server nemůže požadavek zpracovat kvůli chybě klienta." },
+  "401": { "phrase": "Neautorizováno", "description": "Požadavek vyžaduje autentizaci uživatele." },
+  "403": { "phrase": "Zakázáno", "description": "Server požadavku rozumí, ale odmítá jej autorizovat." },
+  "404": { "phrase": "Nenalezeno", "description": "Server nemůže najít požadovaný zdroj." },
+  "429": { "phrase": "Příliš mnoho požadavků", "description": "Uživatel odeslal v daném čase příliš mnoho požadavků." },
+  "500": { "phrase": "Interní chyba serveru", "description": "Server narazil na neočekávaný stav." },
+  "502": { "phrase": "Špatná brána", "description": "Server obdržel neplatnou odpověď od upstream serveru." },
+  "503": { "phrase": "Služba nedostupná", "description": "Server momentálně není schopen požadavek vyřídit." },
+  "504": { "phrase": "Časový limit brány", "description": "Server neobdržel včasnou odpověď od upstream serveru." }
+}

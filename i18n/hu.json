@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Folytatás", "description": "A szerver megkapta a kérés fejléceit, és a kliensnek folytatnia kell a kérés törzsének küldését." },
+  "200": { "phrase": "OK", "description": "A kérés sikeres volt." },
+  "201": { "phrase": "Létrehozva", "description": "A kérés sikeres volt, és új erőforrás jött létre." },
+  "204": { "phrase": "Nincs tartalom", "description": "A szerver sikeresen feldolgozta a kérést, de nem küld vissza tartalmat." },
+  "301": { "phrase": "Véglegesen áthelyezve", "description": "A kért erőforráshoz új végleges URI-t rendeltek." },
+  "400": { "phrase": "Hibás kérés", "description": "A szerver nem tudja feldolgozni a kérést klienshiba miatt." },
+  "401": { "phrase": "Nem jogosult", "description": "A kéréshez felhasználói hitelesítés szükséges." },
+  "403": { "phrase": "Tiltott", "description": "A szerver megértette a kérést, de megtagadja az engedélyezést." },
+  "404": { "phrase": "Nem található", "description": "A szerver nem találja a kért erőforrást." },
+  "429": { "phrase": "Túl sok kérés", "description": "A felhasználó túl sok kérést küldött egy adott idő alatt." },
+  "500": { "phrase": "Belső szerverhiba", "description": "A szerver váratlan körülménybe ütközött." },
+  "502": { "phrase": "Rossz átjáró", "description": "A szerver érvénytelen választ kapott a felsőbb szintű szervertől." },
+  "503": { "phrase": "Szolgáltatás nem elérhető", "description": "A szerver jelenleg nem tudja kezelni a kérést (túlterhelés vagy karbantartás miatt)." },
+  "504": { "phrase": "Átjáró időtúllépés", "description": "A szerver nem kapott időben választ a felsőbb szintű szervertől." }
+}
