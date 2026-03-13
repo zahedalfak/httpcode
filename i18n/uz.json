@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Davom eting", "description": "Server so'rov sarlavhalarini oldi va mijoz so'rov tanasini yuborishni davom ettirishi kerak." },
+  "200": { "phrase": "OK", "description": "So'rov muvaffaqiyatli bajarildi." },
+  "201": { "phrase": "Yaratildi", "description": "So'rov muvaffaqiyatli bo'ldi va yangi resurs yaratildi." },
+  "204": { "phrase": "Tarkib yo'q", "description": "Server so'rovni muvaffaqiyatli qayta ishladi, lekin hech qanday tarkib qaytarmaydi." },
+  "301": { "phrase": "Doimiy ko'chirildi", "description": "So'ralgan resursga yangi doimiy URI tayinlangan." },
+  "400": { "phrase": "Noto'g'ri so'rov", "description": "Server mijoz xatosi tufayli so'rovni qayta ishlay olmaydi." },
+  "401": { "phrase": "Ruxsat etilmagan", "description": "So'rov uchun foydalanuvchi autentifikatsiyasi talab qilinadi." },
+  "403": { "phrase": "Taqiqlangan", "description": "Server so'rovni tushundi, lekin unga ruxsat berishdan bosh tortadi." },
+  "404": { "phrase": "Topilmadi", "description": "Server so'ralgan resursni topa olmaydi." },
+  "429": { "phrase": "Haddan tashqari ko'p so'rovlar", "description": "Foydalanuvchi ma'lum vaqt ichida juda ko'p so'rov yuborgan." },
+  "500": { "phrase": "Serverning ichki xatosi", "description": "Server kutilmagan vaziyatga duch keldi." },
+  "502": { "phrase": "Yomon shlyuz", "description": "Server yuqori serverdan noto'g'ri javob oldi." },
+  "503": { "phrase": "Xizmat ko'rsatib bo'lmaydi", "description": "Server hozirda so'rovni qayta ishlay olmaydi (ortiqcha yuk yoki texnik xizmat ko'rsatish)." },
+  "504": { "phrase": "Shlyuz vaqti tugadi", "description": "Server yuqori serverdan o'z vaqtida javob olmadi." }
+}
