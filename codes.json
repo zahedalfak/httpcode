@@ -3,516 +3,506 @@
     "code": 100,
     "phrase": "Continue",
     "description": "The server has received the request headers and the client should proceed to send the request body.",
-    "class": "1xx Informational"
+    "class": "1xx Informational",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100"
   },
   {
     "code": 101,
     "phrase": "Switching Protocols",
     "description": "The requester has asked the server to switch protocols and the server has agreed to do so.",
-    "class": "1xx Informational"
+    "class": "1xx Informational",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/101"
   },
   {
     "code": 102,
     "phrase": "Processing",
     "description": "A WebDAV request may contain many sub-requests involving file operations, requiring a long time to complete the request.",
-    "class": "1xx Informational"
+    "class": "1xx Informational",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/102"
   },
   {
     "code": 103,
     "phrase": "Early Hints",
     "description": "Used to return some response headers before final HTTP message.",
-    "class": "1xx Informational"
+    "class": "1xx Informational",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/103"
   },
   {
     "code": 200,
     "phrase": "OK",
     "description": "Standard response for successful HTTP requests.",
-    "class": "2xx Success"
+    "class": "2xx Success",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200"
   },
   {
     "code": 201,
     "phrase": "Created",
     "description": "The request has been fulfilled, resulting in the creation of a new resource.",
-    "class": "2xx Success"
+    "class": "2xx Success",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201"
   },
   {
     "code": 202,
     "phrase": "Accepted",
     "description": "The request has been accepted for processing, but the processing has not been completed.",
-    "class": "2xx Success"
+    "class": "2xx Success",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/202"
   },
   {
     "code": 203,
     "phrase": "Non-Authoritative Information",
     "description": "The server is a transforming proxy that received a 200 OK from its origin, but is returning a modified version of the origin's response.",
-    "class": "2xx Success"
+    "class": "2xx Success",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/203"
   },
   {
     "code": 204,
     "phrase": "No Content",
     "description": "The server successfully processed the request, and is not returning any content.",
-    "class": "2xx Success"
+    "class": "2xx Success",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/204"
   },
   {
     "code": 205,
     "phrase": "Reset Content",
     "description": "The server successfully processed the request, asks that the requester reset its document view, and is not returning any content.",
-    "class": "2xx Success"
+    "class": "2xx Success",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/205"
   },
   {
     "code": 206,
     "phrase": "Partial Content",
     "description": "The server is delivering only part of the resource due to a range header sent by the client.",
-    "class": "2xx Success"
+    "class": "2xx Success",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/206"
   },
   {
     "code": 207,
     "phrase": "Multi-Status",
     "description": "The message body that follows is by default an XML message and can contain a number of separate response codes.",
-    "class": "2xx Success"
+    "class": "2xx Success",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/207"
   },
   {
     "code": 208,
     "phrase": "Already Reported",
     "description": "The members of a DAV binding have already been enumerated in a preceding part of the (multistatus) response, and are not being included again.",
-    "class": "2xx Success"
+    "class": "2xx Success",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/208"
   },
   {
     "code": 226,
     "phrase": "IM Used",
     "description": "The server has fulfilled a request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance.",
-    "class": "2xx Success"
+    "class": "2xx Success",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/226"
   },
   {
     "code": 300,
     "phrase": "Multiple Choices",
     "description": "Indicates multiple options for the resource from which the client may choose.",
-    "class": "3xx Redirection"
+    "class": "3xx Redirection",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/300"
   },
   {
     "code": 301,
     "phrase": "Moved Permanently",
     "description": "This and all future requests should be directed to the given URI.",
-    "class": "3xx Redirection"
+    "class": "3xx Redirection",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301"
   },
   {
     "code": 302,
-    "phrase": "Found (Previously \"Moved temporarily\")",
+    "phrase": "Found",
     "description": "Tells the client to look at (browse to) another URL. 302 has been superseded by 303 and 307.",
-    "class": "3xx Redirection"
+    "class": "3xx Redirection",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/302"
   },
   {
     "code": 303,
     "phrase": "See Other",
     "description": "The response to the request can be found under another URI using the GET method.",
-    "class": "3xx Redirection"
+    "class": "3xx Redirection",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303"
   },
   {
     "code": 304,
     "phrase": "Not Modified",
     "description": "Indicates that the resource has not been modified since the version specified by the request headers If-Modified-Since or If-None-Match.",
-    "class": "3xx Redirection"
+    "class": "3xx Redirection",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/304"
   },
   {
     "code": 305,
     "phrase": "Use Proxy",
     "description": "The requested resource is available only through a proxy, the address for which is provided in the response.",
-    "class": "3xx Redirection"
-  },
-  {
-    "code": 306,
-    "phrase": "Switch Proxy",
-    "description": "No longer used. Originally meant \"Subsequent requests should use the specified proxy.\"",
-    "class": "3xx Redirection"
+    "class": "3xx Redirection",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/305"
   },
   {
     "code": 307,
     "phrase": "Temporary Redirect",
     "description": "In this case, the request should be repeated with another URI; however, future requests should still use the original URI.",
-    "class": "3xx Redirection"
+    "class": "3xx Redirection",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/307"
   },
   {
     "code": 308,
     "phrase": "Permanent Redirect",
     "description": "The request and all future requests should be repeated using another URI.",
-    "class": "3xx Redirection"
+    "class": "3xx Redirection",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/308"
   },
   {
     "code": 400,
     "phrase": "Bad Request",
     "description": "The server cannot or will not process the request due to an apparent client error.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400"
   },
   {
     "code": 401,
     "phrase": "Unauthorized",
-    "description": "Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided.",
-    "class": "4xx Client Error"
+    "description": "Specifically for use when authentication is required and has failed or has not yet been provided.",
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
   },
   {
     "code": 402,
     "phrase": "Payment Required",
-    "description": "Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme.",
-    "class": "4xx Client Error"
+    "description": "Reserved for future use. The original intention was for digital cash or micropayment schemes.",
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402"
   },
   {
     "code": 403,
     "phrase": "Forbidden",
     "description": "The request contained valid data and was understood by the server, but the server is refusing action.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
   },
   {
     "code": 404,
     "phrase": "Not Found",
     "description": "The requested resource could not be found but may be available in the future.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
   },
   {
     "code": 405,
     "phrase": "Method Not Allowed",
     "description": "A request method is not supported for the requested resource.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405"
   },
   {
     "code": 406,
     "phrase": "Not Acceptable",
-    "description": "The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.",
-    "class": "4xx Client Error"
+    "description": "The requested resource is capable of generating only content not acceptable according to the Accept headers.",
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/406"
   },
   {
     "code": 407,
     "phrase": "Proxy Authentication Required",
     "description": "The client must first authenticate itself with the proxy.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/407"
   },
   {
     "code": 408,
     "phrase": "Request Timeout",
     "description": "The server timed out waiting for the request.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/408"
   },
   {
     "code": 409,
     "phrase": "Conflict",
     "description": "Indicates that the request could not be processed because of conflict in the current state of the resource.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409"
   },
   {
     "code": 410,
     "phrase": "Gone",
     "description": "Indicates that the resource requested is no longer available and will not be available again.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410"
   },
   {
     "code": 411,
     "phrase": "Length Required",
     "description": "The request did not specify the length of its content, which is required by the requested resource.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/411"
   },
   {
     "code": 412,
     "phrase": "Precondition Failed",
     "description": "The server does not meet one of the preconditions that the requester put on the request header fields.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/412"
   },
   {
     "code": 413,
     "phrase": "Payload Too Large",
     "description": "The request is larger than the server is willing or able to process.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/413"
   },
   {
     "code": 414,
     "phrase": "URI Too Long",
     "description": "The URI provided was too long for the server to process.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/414"
   },
   {
     "code": 415,
     "phrase": "Unsupported Media Type",
     "description": "The request entity has a media type which the server or resource does not support.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/415"
   },
   {
     "code": 416,
     "phrase": "Range Not Satisfiable",
     "description": "The client has asked for a portion of the file, but the server cannot supply that portion.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/416"
   },
   {
     "code": 417,
     "phrase": "Expectation Failed",
     "description": "The server cannot meet the requirements of the Expect request-header field.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/417"
   },
   {
     "code": 418,
     "phrase": "I'm a teapot",
-    "description": "This code was defined in 1998 as one of the traditional IETF April Fools' jokes, in RFC 2324, Hyper Text Coffee Pot Control Protocol.",
-    "class": "4xx Client Error"
+    "description": "April Fools' joke (RFC 2324), Hyper Text Coffee Pot Control Protocol.",
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418"
   },
   {
     "code": 421,
     "phrase": "Misdirected Request",
     "description": "The request was directed at a server that is not able to produce a response.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/421"
   },
   {
     "code": 422,
     "phrase": "Unprocessable Entity",
     "description": "The request was well-formed but was unable to be followed due to semantic errors.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422"
   },
   {
     "code": 423,
     "phrase": "Locked",
     "description": "The resource that is being accessed is locked.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/423"
   },
   {
     "code": 424,
     "phrase": "Failed Dependency",
     "description": "The request failed because it depended on another action and that action failed.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/424"
   },
   {
     "code": 425,
     "phrase": "Too Early",
     "description": "Indicates that the server is unwilling to risk processing a request that might be replayed.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/425"
   },
   {
     "code": 426,
     "phrase": "Upgrade Required",
-    "description": "The client should switch to a different protocol such as TLS/1.0, given in the Upgrade header field.",
-    "class": "4xx Client Error"
+    "description": "The client should switch to a different protocol such as TLS/1.0.",
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/426"
   },
   {
     "code": 428,
     "phrase": "Precondition Required",
     "description": "The origin server requires the request to be conditional.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/428"
   },
   {
     "code": 429,
     "phrase": "Too Many Requests",
     "description": "The user has sent too many requests in a given amount of time.",
-    "class": "4xx Client Error"
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
   },
   {
     "code": 431,
     "phrase": "Request Header Fields Too Large",
-    "description": "The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large.",
-    "class": "4xx Client Error"
+    "description": "The server is unwilling to process the request because header fields are too large.",
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/431"
   },
   {
     "code": 451,
     "phrase": "Unavailable For Legal Reasons",
-    "description": "A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource.",
-    "class": "4xx Client Error"
+    "description": "Legal demand to deny access to a resource.",
+    "class": "4xx Client Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/451"
   },
   {
     "code": 500,
     "phrase": "Internal Server Error",
-    "description": "A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.",
-    "class": "5xx Server Error"
+    "description": "Generic error message for unexpected conditions.",
+    "class": "5xx Server Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
   },
   {
     "code": 501,
     "phrase": "Not Implemented",
-    "description": "The server either does not recognize the request method, or it lacks the ability to fulfil the request.",
-    "class": "5xx Server Error"
+    "description": "The server lacks the ability to fulfil the request.",
+    "class": "5xx Server Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/501"
   },
   {
     "code": 502,
     "phrase": "Bad Gateway",
-    "description": "The server was acting as a gateway or proxy and received an invalid response from the upstream server.",
-    "class": "5xx Server Error"
+    "description": "Invalid response from the upstream server.",
+    "class": "5xx Server Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502"
   },
   {
     "code": 503,
     "phrase": "Service Unavailable",
-    "description": "The server cannot handle the request (because it is overloaded or down for maintenance).",
-    "class": "5xx Server Error"
+    "description": "The server is overloaded or down for maintenance.",
+    "class": "5xx Server Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
   },
   {
     "code": 504,
     "phrase": "Gateway Timeout",
-    "description": "The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.",
-    "class": "5xx Server Error"
+    "description": "The server acting as a gateway did not receive a timely response.",
+    "class": "5xx Server Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504"
   },
   {
     "code": 505,
     "phrase": "HTTP Version Not Supported",
-    "description": "The server does not support the HTTP protocol version used in the request.",
-    "class": "5xx Server Error"
+    "description": "The server does not support the HTTP protocol version used.",
+    "class": "5xx Server Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/505"
   },
   {
     "code": 506,
     "phrase": "Variant Also Negotiates",
-    "description": "Transparent content negotiation for the request results in a circular reference.",
-    "class": "5xx Server Error"
+    "description": "Circular reference in transparent content negotiation.",
+    "class": "5xx Server Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/506"
   },
   {
     "code": 507,
     "phrase": "Insufficient Storage",
-    "description": "The server is unable to store the representation needed to complete the request.",
-    "class": "5xx Server Error"
+    "description": "The server is unable to store the representation needed.",
+    "class": "5xx Server Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/507"
   },
   {
     "code": 508,
     "phrase": "Loop Detected",
-    "description": "The server detected an infinite loop while processing the request.",
-    "class": "5xx Server Error"
+    "description": "Infinite loop detected while processing the request.",
+    "class": "5xx Server Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/508"
   },
   {
     "code": 510,
     "phrase": "Not Extended",
-    "description": "Further extensions to the request are required for the server to fulfil it.",
-    "class": "5xx Server Error"
+    "description": "Further extensions to the request are required.",
+    "class": "5xx Server Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/510"
   },
   {
     "code": 511,
     "phrase": "Network Authentication Required",
     "description": "The client needs to authenticate to gain network access.",
-    "class": "5xx Server Error"
+    "class": "5xx Server Error",
+    "mdn_link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/511"
+  },
+  {
+    "code": 419,
+    "phrase": "Page Expired",
+    "description": "Used by the Laravel Framework when a CSRF Token is missing or expired.",
+    "class": "4xx Client Error (Unofficial - Laravel)"
   },
   {
     "code": 420,
     "phrase": "Enhance Your Calm",
-    "description": "Returned by the Twitter Search and Trends API when the client is being rate limited; Search and Trends index variants 1.1.",
+    "description": "Returned by Twitter when the client is being rate limited.",
     "class": "4xx Client Error (Unofficial - Twitter)"
   },
   {
     "code": 440,
     "phrase": "Login Timeout",
-    "description": "The client's session has expired and must log in again.",
+    "description": "The client's session has expired (IIS).",
     "class": "4xx Client Error (Unofficial - IIS)"
   },
   {
     "code": 444,
     "phrase": "No Response",
-    "description": "Used to instruct the server to return no information to the client and close the connection immediately.",
-    "class": "4xx Client Error (Unofficial - Nginx)"
-  },
-  {
-    "code": 449,
-    "phrase": "Retry With",
-    "description": "The request should be retried after performing the appropriate action.",
-    "class": "4xx Client Error (Unofficial - IIS)"
-  },
-  {
-    "code": 450,
-    "phrase": "Blocked by Windows Parental Controls",
-    "description": "A Microsoft extension. This error is given when Windows Parental Controls are turned on and are blocking access to the given webpage.",
-    "class": "4xx Client Error (Unofficial - IIS)"
-  },
-  {
-    "code": 494,
-    "phrase": "Request Header Too Large",
-    "description": "Client sent too large header or cookie. Similar to 431 Request Header Fields Too Large.",
-    "class": "4xx Client Error (Unofficial - Nginx)"
-  },
-  {
-    "code": 495,
-    "phrase": "SSL Certificate Error",
-    "description": "An expansion of the 400 Bad Request response code, used when the client has provided an invalid client certificate.",
-    "class": "4xx Client Error (Unofficial - Nginx)"
-  },
-  {
-    "code": 496,
-    "phrase": "SSL Certificate Required",
-    "description": "An expansion of the 400 Bad Request response code, used when a client certificate is required but not provided.",
-    "class": "4xx Client Error (Unofficial - Nginx)"
-  },
-  {
-    "code": 497,
-    "phrase": "HTTP Request Sent to HTTPS Port",
-    "description": "An expansion of the 400 Bad Request response code, used when the client has made a HTTP request to a port listening for HTTPS requests.",
+    "description": "Nginx closes the connection without sending a response.",
     "class": "4xx Client Error (Unofficial - Nginx)"
   },
   {
     "code": 499,
     "phrase": "Client Closed Request",
-    "description": "Used when the client has closed the request before the server could send a response.",
+    "description": "Client closed the connection before server could respond (Nginx).",
     "class": "4xx Client Error (Unofficial - Nginx)"
   },
   {
+    "code": 509,
+    "phrase": "Bandwidth Limit Exceeded",
+    "description": "The server has exceeded the bandwidth specified by the server administrator.",
+    "class": "5xx Server Error (Unofficial - Apache/cPanel)"
+  },
+  {
     "code": 520,
-    "phrase": "Web Server Returned an Unknown Error",
-    "description": "The origin server returned an empty, unknown, or unexpected response to Cloudflare.",
+    "phrase": "Unknown Error",
+    "description": "Cloudflare: Origin server returned an unknown response.",
     "class": "5xx Server Error (Unofficial - Cloudflare)"
   },
   {
     "code": 521,
     "phrase": "Web Server Is Down",
-    "description": "The origin server has refused the connection from Cloudflare.",
+    "description": "Cloudflare: Origin server refused the connection.",
     "class": "5xx Server Error (Unofficial - Cloudflare)"
   },
   {
     "code": 522,
     "phrase": "Connection Timed Out",
-    "description": "Cloudflare could not negotiate a TCP handshake with the origin server.",
-    "class": "5xx Server Error (Unofficial - Cloudflare)"
-  },
-  {
-    "code": 523,
-    "phrase": "Origin Is Unreachable",
-    "description": "Cloudflare could not reach the origin server; for example, if the DNS records for the origin server are incorrect.",
+    "description": "Cloudflare: TCP handshake with origin failed.",
     "class": "5xx Server Error (Unofficial - Cloudflare)"
   },
   {
     "code": 524,
     "phrase": "A Timeout Occurred",
-    "description": "Cloudflare was able to complete a TCP handshake with the origin server, but the origin did not reply with a HTTP response before the connection timed out.",
+    "description": "Cloudflare: TCP handshake succeeded but origin did not respond in time.",
     "class": "5xx Server Error (Unofficial - Cloudflare)"
   },
   {
-    "code": 525,
-    "phrase": "SSL Handshake Failed",
-    "description": "Cloudflare could not negotiate a SSL/TLS handshake with the origin server.",
-    "class": "5xx Server Error (Unofficial - Cloudflare)"
+    "code": 598,
+    "phrase": "Network Read Timeout Error",
+    "description": "Used by some proxies to indicate a network read timeout behind the proxy.",
+    "class": "5xx Server Error (Unofficial)"
   },
   {
-    "code": 526,
-    "phrase": "Invalid SSL Certificate",
-    "description": "Cloudflare could not validate the SSL/TLS certificate that the origin server presented.",
-    "class": "5xx Server Error (Unofficial - Cloudflare)"
-  },
-  {
-    "code": 527,
-    "phrase": "Railgun Error",
-    "description": "The request timed out or failed after the WAN connection had been established.",
-    "class": "5xx Server Error (Unofficial - Cloudflare)"
-  },
-  {
-    "code": 530,
-    "phrase": "Site is frozen",
-    "description": "The site has been frozen due to inactivity or violation of terms.",
-    "class": "5xx Server Error (Unofficial - Cloudflare)"
-  },
-  {
-    "code": 430,
-    "phrase": "Request Header Fields Too Large",
-    "description": "Used by Shopify when too many URLs are requested within a certain time frame.",
-    "class": "4xx Client Error (Unofficial - Shopify)"
-  },
-  {
-    "code": 460,
-    "phrase": "Client Closed Connection",
-    "description": "The client closed the connection with the load balancer before the idle timeout period elapsed.",
-    "class": "4xx Client Error (Unofficial - AWS ELB)"
-  },
-  {
-    "code": 463,
-    "phrase": "X-Forwarded-For Header Too Large",
-    "description": "The load balancer received an X-Forwarded-For request header with more than 30 IP addresses.",
-    "class": "4xx Client Error (Unofficial - AWS ELB)"
-  },
-  {
-    "code": 561,
-    "phrase": "Unauthorized",
-    "description": "Returned by an AWS ELB listener when a client's authentication attempt with an IdP fails.",
-    "class": "5xx Server Error (Unofficial - AWS ELB)"
+    "code": 599,
+    "phrase": "Network Connect Timeout Error",
+    "description": "Used by some proxies to indicate a network connect timeout behind the proxy.",
+    "class": "5xx Server Error (Unofficial)"
   }
 ]
