@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Daŭrigi", "description": "La servilo ricevis la petajn kapliniojn kaj la kliento devas daŭrigi sendi la petan korpon." },
+  "200": { "phrase": "Bone", "description": "La peto sukcesis." },
+  "201": { "phrase": "Kreita", "description": "La peto sukcesis kaj nova rimedo estis kreita." },
+  "204": { "phrase": "Neniu Enhavo", "description": "La servilo sukcese prilaboris la peton sed ne resendas ajnan enhavon." },
+  "301": { "phrase": "Moviĝis Konstante", "description": "Al la petita rimedo estis asignita nova konstanta URI." },
+  "400": { "phrase": "Malbona Peto", "description": "La servilo ne povas prilabori la peton pro klienta eraro." },
+  "401": { "phrase": "Neaŭtorizita", "description": "La peto postulas uzant-aŭtentikigon." },
+  "403": { "phrase": "Malpermesita", "description": "La servilo komprenis la peton sed rifuzas rajtigi ĝin." },
+  "404": { "phrase": "Ne Trovita", "description": "La servilo ne povas trovi la petitan rimedon." },
+  "429": { "phrase": "Tro da Petoj", "description": "La uzanto sendis tro da petoj en donita tempo." },
+  "500": { "phrase": "Interna Servila Eraro", "description": "La servilo renkontis neatenditan kondiĉon." },
+  "502": { "phrase": "Malbona Kluzo", "description": "La servilo ricevis nevalidan respondon de la supra servilo." },
+  "503": { "phrase": "Servo ne Havebla", "description": "La servilo nuntempe ne kapablas trakti la peton." },
+  "504": { "phrase": "Kluzo-Eltempiĝo", "description": "La servilo ne ricevis ĝustatempan respondon de la supra servilo." }
+}

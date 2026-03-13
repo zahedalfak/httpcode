@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Tohizo", "description": "Nahazo ny lohatenin'ny fangatahana ny mpizara ary ny mpanjifa dia tokony hanohy handefa ny vatan'ny fangatahana." },
+  "200": { "phrase": "ENY", "description": "Nahomby ny fangatahana." },
+  "201": { "phrase": "Voatomboka", "description": "Nahomby ny fangatahana ary nisy loharano vaovao voatomboka." },
+  "204": { "phrase": "Tsy misy votoaty", "description": "Nahomby tamin'ny fanodinana ny fangatahana ny mpizara saingy tsy namerina votoaty." },
+  "301": { "phrase": "Nifindra tanteraka", "description": "Nomena URI maharitra vaovao ny loharano nangatahana." },
+  "400": { "phrase": "Fangatahana ratsy", "description": "Tsy afaka manodina ny fangatahana ny mpizara noho ny fahadisoan'ny mpanjifa." },
+  "401": { "phrase": "Tsy nahazoana alàlana", "description": "Mila fanamarinana ny fangatahana." },
+  "403": { "phrase": "Voarara", "description": "Takatry ny mpizara ny fangatahana saingy mandà tsy hanome alàlana." },
+  "404": { "phrase": "Tsy hita", "description": "Tsy hitan'ny mpizara ny loharano nangatahana." },
+  "429": { "phrase": "Fangatahana be loatra", "description": "Nandefa fangatahana be loatra ny mpampiasa tamin'ny fotoana voafaritra." },
+  "500": { "phrase": "Fahadisoan'ny mpizara anaty", "description": "Nisedra toe-javatra tsy nampoizina ny mpizara." },
+  "502": { "phrase": "Vavahady ratsy", "description": "Nahazo valiny tsy mety avy amin'ny mpizara any ambony ny mpizara." },
+  "503": { "phrase": "Serivisy tsy misy", "description": "Tsy afaka mitantana ny fangatahana ny mpizara amin'izao fotoana izao." },
+  "504": { "phrase": "Fahataperan'ny fotoanan'ny vavahady", "description": "Tsy nahazo valiny ara-potoana avy amin'ny mpizara any ambony ny mpizara." }
+}

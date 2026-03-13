@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Sii wad", "description": "Seerfarku wuxuu helay madaxyada codsiga macaamiishuna waa inuu sii wadaa dirista jidhka codsiga." },
+  "200": { "phrase": "HAA", "description": "Codsigu wuu guuleystay." },
+  "201": { "phrase": "Waa la abuuray", "description": "Codsigu wuu guuleystay waxaana la abuuray kheyraad cusub." },
+  "204": { "phrase": "Ma jiro wax ka kooban", "description": "Seerfarku wuxuu si guul leh u farsameeyay codsiga laakiin ma soo celinayo wax kasta oo ka kooban." },
+  "301": { "phrase": "Si joogto ah ayaa loo raray", "description": "Kheyraadka la codsaday waxaa loo qoondeeyay URI cusub oo joogto ah." },
+  "400": { "phrase": "Codsi xun", "description": "Seerfarku ma farsameyn karo codsiga qalad macmiil awgeed." },
+  "401": { "phrase": "Lama oggola", "description": "Codsigu wuxuu u baahan yahay xaqiijinta isticmaalaha." },
+  "403": { "phrase": "Waa mamnuuc", "description": "Seerfarku wuxuu fahmay codsiga laakiin wuu diiday inuu oggolaado." },
+  "404": { "phrase": "Lama helin", "description": "Seerfarku ma heli karo kheyraadka la codsaday." },
+  "429": { "phrase": "Codsiyo aad u badan", "description": "Isticmaalahu wuxuu soo diray codsiyo aad u badan waqti cayiman gudaheed." },
+  "500": { "phrase": "Khalad seerfar gudaha ah", "description": "Seerfarku wuxuu la kulmay xaalad aan la filayn." },
+  "502": { "phrase": "Bad Gateway", "description": "Seerfarku wuxuu jawaab aan sax ahayn ka helay seerfarka sare." },
+  "503": { "phrase": "Adeeggu ma heli karo", "description": "Seerfarku hadda ma awoodo inuu maareeyo codsiga." },
+  "504": { "phrase": "Gateway Timeout", "description": "Seerfarku jawaab waqtiyeysan kama helin seerfarka sare." }
+}
