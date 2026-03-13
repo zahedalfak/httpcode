@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Jatka", "description": "Palvelin on vastaanottanut pyynnön otsikot ja asiakkaan tulisi jatkaa pyynnön rungon lähettämistä." },
+  "200": { "phrase": "OK", "description": "Pyyntö on onnistunut." },
+  "201": { "phrase": "Luotu", "description": "Pyyntö on onnistunut ja uusi resurssi on luotu." },
+  "204": { "phrase": "Ei sisältöä", "description": "Palvelin on käsitellyt pyynnön onnistuneesti, mutta ei palauta sisältöä." },
+  "301": { "phrase": "Siirretty pysyvästi", "description": "Pyydetylle resurssille on määritetty uusi pysyvä URI." },
+  "400": { "phrase": "Virheellinen pyyntö", "description": "Palvelin ei voi käsitellä pyyntöä asiakasvirheen vuoksi." },
+  "401": { "phrase": "Luvaton", "description": "Pyyntö edellyttää käyttäjän todentamista." },
+  "403": { "phrase": "Kielletty", "description": "Palvelin ymmärsi pyynnön, mutta kieltäytyy valtuuttamasta sitä." },
+  "404": { "phrase": "Ei löydy", "description": "Palvelin ei löydä pyydettyä resurssia." },
+  "429": { "phrase": "Liian monta pyyntöä", "description": "Käyttäjä on lähettänyt liian monta pyyntöä tietyssä ajassa." },
+  "500": { "phrase": "Sisäinen palvelinvirhe", "description": "Palvelin kohtasi odottamattoman tilanteen." },
+  "502": { "phrase": "Viallinen yhdyskäytävä", "description": "Palvelin sai virheellisen vastauksen ylävirran palvelimelta." },
+  "503": { "phrase": "Palvelu ei ole käytettävissä", "description": "Palvelin ei tällä hetkellä voi käsitellä pyyntöä (ylikuormituksen tai huollon vuoksi)." },
+  "504": { "phrase": "Yhdyskäytävän aikakatkaisu", "description": "Palvelin ei saanut ajoissa vastausta ylävirran palvelimelta." }
+}
