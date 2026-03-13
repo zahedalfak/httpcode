@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Trochgean", "description": "De server hat de fersykskopteksten krigen en de kliïnt moat trochgean mei it ferstjoeren fan it fersykslichem." },
+  "200": { "phrase": "OK", "description": "It fersyk is slagge." },
+  "201": { "phrase": "Makke", "description": "It fersyk is slagge en in nije boarne is makke." },
+  "204": { "phrase": "Gjin Ynhâld", "description": "De server hat it fersyk slagge ferwurke mar jout gjin ynhâld werom." },
+  "301": { "phrase": "Permanint Ferpleatst", "description": "De frege boarne hat in nije permaninte URI krigen." },
+  "400": { "phrase": "Min Fersyk", "description": "De server kin it fersyk net ferwurkje fanwegen in kliïntflater." },
+  "401": { "phrase": "Net Autorisearre", "description": "It fersyk fereasket brûkersautentikaasje." },
+  "403": { "phrase": "Ferbean", "description": "De server hat it fersyk begrepen mar weigert it te autorisearjen." },
+  "404": { "phrase": "Net Fûn", "description": "De server kin de frege boarne net fine." },
+  "429": { "phrase": "Te Folle Fersiken", "description": "De brûker hat te folle fersiken stjoerd yn in bepaalde tiid." },
+  "500": { "phrase": "Ynterne Serverflater", "description": "De server kaam in ûnferwachte tastân tsjin." },
+  "502": { "phrase": "Minne Gateway", "description": "De server krige in ûnjildich antwurd fan de boppesteande server." },
+  "503": { "phrase": "Tsjinst Net Beskikber", "description": "De server is op dit stuit net yn steat om it fersyk ôf te hanneljen." },
+  "504": { "phrase": "Gateway-tiidferrin", "description": "De server krige net op tiid antwurd fan de boppesteande server." }
+}

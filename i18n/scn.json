@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continua", "description": "U server arricivìu li testati di la dumanna e lu client ha a cuntinuari a mannari lu corpu." },
+  "200": { "phrase": "Bonu", "description": "La dumanna successi." },
+  "201": { "phrase": "Criatu", "description": "La dumanna successi e na risursa nova fu criata." },
+  "204": { "phrase": "Nenti Cuntinutu", "description": "U server elaburau la dumanna ma nun ritorna nenti cuntinutu." },
+  "301": { "phrase": "Spostatu pi sempri", "description": "La risursa addumannata arricivìu na nova URI pirmanenti." },
+  "400": { "phrase": "Dumanna Sbagghiata", "description": "U server nun pò elaburari la dumanna pi un errori di lu client." },
+  "401": { "phrase": "Nun Auturizzatu", "description": "La dumanna addumanna n'autintificazzioni di l'utenti." },
+  "403": { "phrase": "Pruibbitu", "description": "U server capìu la dumanna ma rifiuta di auturizzalla." },
+  "404": { "phrase": "Nun Truvatu", "description": "U server nun pò truvari la risursa addumannata." },
+  "429": { "phrase": "Troppu Dumanni", "description": "L'utenti mannau troppu dumanni nta un tempu datu." },
+  "500": { "phrase": "Errore Internu di lu Server", "description": "U server attruvau na situazzioni nun privista." },
+  "502": { "phrase": "Bad Gateway", "description": "U server arricivìu na risposta nun vàlida di lu server di supra." },
+  "503": { "phrase": "Serviziu nun Disponibbili", "description": "U server nun è capaci di ggestiri la dumanna pi ora." },
+  "504": { "phrase": "Gateway Timeout", "description": "U server nun arricivìu na risposta a tempu di lu server di supra." }
+}

@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Pesya", "description": "An servyer re dhegemmeras an pennlinennow gorholeth ha'n klyent a dhellydh pesya danvon korf an gorholeth." },
+  "200": { "phrase": "Yn-prys", "description": "An gorholeth re sewenis." },
+  "201": { "phrase": "Gwruthyl", "description": "An gorholeth re sewenis ha deventer nowydh re beu gwruthyl." },
+  "204": { "phrase": "Nyns eus Dalgh", "description": "An servyer re dhyghtis an gorholeth yn sewen mes ny dhehweles dalgh vyth." },
+  "301": { "phrase": "Gwayys yn Fast", "description": "An deventer re beu res URI fast nowydh." },
+  "400": { "phrase": "Gorholeth Drog", "description": "An servyer ny yll dyghtya an gorholeth drefen kammwri an klyent." },
+  "401": { "phrase": "Heb Awtorita", "description": "Res yw dhe'n gorholeth certifyans an devnydhyer." },
+  "403": { "phrase": "Difennys", "description": "An servyer a gonvedhas an gorholeth mes ev a dhenagh y awtorisya." },
+  "404": { "phrase": "Nyns yw Kevys", "description": "An servyer ny yll kavos an deventer re beu govynys." },
+  "429": { "phrase": "Re a Worholethow", "description": "An devnydhyer re dhanvonas re a worholethow yn termyn res." },
+  "500": { "phrase": "Gwall Servyer Aberfedh", "description": "An servyer a dherbynnas studh heb gwaytyas." },
+  "502": { "phrase": "Gateway Drog", "description": "An servyer re dhegemmeras gorthyp drog dhyworth servyer a-ugh." },
+  "503": { "phrase": "Gonys nyns yw Kavadow", "description": "An servyer ny yll dyghtya an gorholeth y'n termyn ma." },
+  "504": { "phrase": "Termyn Gateway re Passyas", "description": "An servyer ny dhegemmeras gorthyp a-termyn dhyworth servyer a-ugh." }
+}

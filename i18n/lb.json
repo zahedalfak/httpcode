@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Weidermaachen", "description": "De Server huet d'Ufro-Header kritt an de Client soll weidergoen fir de Kierper ze schécken." },
+  "200": { "phrase": "OK", "description": "D'Ufro war erfollegräich." },
+  "201": { "phrase": "Erstallt", "description": "D'Ufro war erfollegräich an eng nei Ressource gouf erstallt." },
+  "204": { "phrase": "Keen Inhalt", "description": "De Server huet d'Ufro erfollegräich veraarbecht awer gëtt keen Inhalt zréck." },
+  "301": { "phrase": "Dauerhaft geplënnert", "description": "Déi ugefuerdert Ressource krut en neien dauerhaften URI." },
+  "400": { "phrase": "Schlecht Ufro", "description": "De Server kann d'Ufro net veraarbechten wéinst engem Client-Feeler." },
+  "401": { "phrase": "Net autoriséiert", "description": "D'Ufro erfuerdert Benotzerauthentifikatioun." },
+  "403": { "phrase": "Verbueden", "description": "De Server huet d'Ufro verstanen awer refuséiert se ze autoriséieren." },
+  "404": { "phrase": "Net fonnt", "description": "De Server kann déi ugefuerdert Ressource net fannen." },
+  "429": { "phrase": "Ze vill Ufroen", "description": "De Benotzer huet ze vill Ufroen an enger bestëmmter Zäit geschéckt." },
+  "500": { "phrase": "Interne Server-Feeler", "description": "De Server huet en onerwaarten Zoustand begéint." },
+  "502": { "phrase": "Schlechte Gateway", "description": "De Server krut eng ongëlteg Äntwert vum Upstream-Server." },
+  "503": { "phrase": "Service net disponibel", "description": "De Server ass de Moment net an der Lag d'Ufro ze handhaben." },
+  "504": { "phrase": "Gateway Timeout", "description": "De Server krut keng rechtzäiteg Äntwert vum Upstream-Server." }
+}

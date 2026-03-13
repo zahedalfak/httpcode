@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continua", "description": "El server l'ha ricevù i intestazion de la domanda e el client el dev continuar a mandà el corp." },
+  "200": { "phrase": "Va ben", "description": "La domanda l'è andada ben." },
+  "201": { "phrase": "Creado", "description": "La domanda l'è andada ben e na noeuva risorsa l'è stada creada." },
+  "204": { "phrase": "Nissun Contenù", "description": "El server l'ha elaborà la domanda ma el torna indree nissun contenù." },
+  "301": { "phrase": "Spostà par semper", "description": "La risorsa domandada l'ha ricevù na noeuva URI permanenta." },
+  "400": { "phrase": "Domanda Sbaliada", "description": "El server el po minga elaborà la domanda par via de un error del client." },
+  "401": { "phrase": "No Autorisà", "description": "La domanda la gh'ha besogn de un'autenticazion de l'utent." },
+  "403": { "phrase": "Proibì", "description": "El server l'ha capì la domanda ma el se refuda de autorisala." },
+  "404": { "phrase": "No Trovà", "description": "El server el po minga trovar la risorsa domandada." },
+  "429": { "phrase": "Troppe Domande", "description": "L'utent l'ha mandà troppe domande in un temp dàit." },
+  "500": { "phrase": "Error Intern del Server", "description": "El server l'ha trovà na situazion imprevista." },
+  "502": { "phrase": "Bad Gateway", "description": "El server l'ha ricevù na risposta no vàlida dal server de sora." },
+  "503": { "phrase": "Servizzi no Disponibile", "description": "El server el po minga gestì la domanda par adess." },
+  "504": { "phrase": "Gateway Timeout", "description": "El server l'ha ricevù na risposta a temp dal server de sora." }
+}

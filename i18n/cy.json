@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Parhewch", "description": "Mae'r gweinydd wedi derbyn y penynnau cais a dylai'r cleient barhau i anfon y corff cais." },
+  "200": { "phrase": "Iawn", "description": "Mae'r cais wedi llwyddo." },
+  "201": { "phrase": "Wedi'i greu", "description": "Mae'r cais wedi llwyddo ac mae adnodd newydd wedi'i greu." },
+  "204": { "phrase": "Dim Cynnwys", "description": "Mae'r gweinydd wedi prosesu'r cais yn llwyddiannus ond nid yw'n dychwelyd unrhyw gynnwys." },
+  "301": { "phrase": "Wedi symud yn barhaol", "description": "Mae'r adnodd y gofynnwyd amdano wedi cael URI parhaol newydd." },
+  "400": { "phrase": "Cais gwael", "description": "Ni all y gweinydd brosesu'r cais oherwydd gwall cleient." },
+  "401": { "phrase": "Heb ei awdurdodi", "description": "Mae angen dilysu defnyddiwr ar gyfer y cais." },
+  "403": { "phrase": "Gwaherddir", "description": "Mae'r gweinydd wedi deall y cais ond mae'n gwrthod ei awdurdodi." },
+  "404": { "phrase": "Heb ei ddarganfod", "description": "Ni all y gweinydd ddod o hyd i'r adnodd y gofynnwyd amdano." },
+  "429": { "phrase": "Gormod o geisiadau", "description": "Mae'r defnyddiwr wedi anfon gormod o geisiadau mewn amser penodol." },
+  "500": { "phrase": "Gwall gweinydd mewnol", "description": "Daeth y gweinydd ar draws cyflwr annisgwyl." },
+  "502": { "phrase": "Porth gwael", "description": "Derbyniodd y gweinydd ymateb annilys gan y gweinydd i fyny'r afon." },
+  "503": { "phrase": "Gwasanaeth ddim ar gael", "description": "Nid yw'r gweinydd yn gallu trin y cais ar hyn o bryd." },
+  "504": { "phrase": "Terfyn amser porth", "description": "Ni dderbyniodd y gweinydd ymateb amserol gan y gweinydd i fyny'r afon." }
+}

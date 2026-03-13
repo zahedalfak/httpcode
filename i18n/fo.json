@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Halt áfram", "description": "Ambætarin hevur móttikið fyrispurningarheisarnar og kienturin skal halda áfram at senda fyrispurningarkroppin." },
+  "200": { "phrase": "Í lagi", "description": "Fyrispurningurin eydnaðist." },
+  "201": { "phrase": "Stovnað", "description": "Fyrispurningurin eydnaðist og ein nýggj tilfeingi varð stovnað." },
+  "204": { "phrase": "Einki innihald", "description": "Ambætarin hevur viðgjørt fyrispurningin væl, men sendir einki innihald aftur." },
+  "301": { "phrase": "Flutt varandi", "description": "Umbidna tilfeingið hevur fingið eina nýggja varandi URI." },
+  "400": { "phrase": "Keipur fyrispurningur", "description": "Ambætarin kann ikki viðgera fyrispurningin vegna einum feili hjá kientinum." },
+  "401": { "phrase": "Óheimilað", "description": "Fyrispurningurin krevur brúkaragóðkenning." },
+  "403": { "phrase": "Bannað", "description": "Ambætarin skilti fyrispurningin, men sýtir fyri at heimila honum." },
+  "404": { "phrase": "Ikki funnið", "description": "Ambætarin kann ikki finna umbidna tilfeingið." },
+  "429": { "phrase": "Ov nógvir fyrispurningar", "description": "Brúkarin hevur sent ov nógvar fyrispurningar innan eitt ávíst tíðarskeið." },
+  "500": { "phrase": "Innanhýsis ambætaraleiki", "description": "Ambætarin kom út fyri eini óvæntaðari støðu." },
+  "502": { "phrase": "Keipur gateway", "description": "Ambætarin fekk eitt ógildugt svar frá einum hægri ambætara." },
+  "503": { "phrase": "Tænastan er ikki tøk", "description": "Ambætarin er ikki førur fyri at viðgera fyrispurningin í løtuni." },
+  "504": { "phrase": "Gateway tíðarútrunnin", "description": "Ambætarin fekk ikki svar í rættari tíð frá einum hægri ambætara." }
+}

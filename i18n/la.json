@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Perge", "description": "Servus capita petitionis accepit et cliens corpus petitionis mittere debet." },
+  "200": { "phrase": "Bene", "description": "Petitio successit." },
+  "201": { "phrase": "Creatum", "description": "Petitio successit et novum res creatum est." },
+  "204": { "phrase": "Nihil Contentum", "description": "Servus petitionem bene processit sed nihil contentum reddit." },
+  "301": { "phrase": "Permanenter Motum", "description": "Res petita novum URI permanentem accepit." },
+  "400": { "phrase": "Mala Petitio", "description": "Servus petitionem processare non potest propter errorem clientis." },
+  "401": { "phrase": "Non Auctorizatum", "description": "Petitio authentificationem usoris requirit." },
+  "403": { "phrase": "Prohibitum", "description": "Servus petitionem intellexit sed auctorizare recusat." },
+  "404": { "phrase": "Non Inventum", "description": "Servus rem petitam invenire non potest." },
+  "429": { "phrase": "Nimia Petita", "description": "Usor nimia petita intra tempus datum misit." },
+  "500": { "phrase": "Internus Servus Error", "description": "Servus condicionem inopinatam offendit." },
+  "502": { "phrase": "Malum Janua", "description": "Servus responsum invalidum a servo superiore accepit." },
+  "503": { "phrase": "Servitium non Praesto", "description": "Servus petitionem hoc tempore tractare non potest." },
+  "504": { "phrase": "Januae Tempus Excessum", "description": "Servus responsum a servo superiore intra tempus non accepit." }
+}

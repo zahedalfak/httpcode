@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continua", "description": "Su server at retzidu is intestatziones de sa pregunta e su cliatu depet sighire a imbiare su corpus." },
+  "200": { "phrase": "Bene", "description": "Sa pregunta est andada bene." },
+  "201": { "phrase": "Creadu", "description": "Sa pregunta est andada bene e una resursa noa est istada creada." },
+  "204": { "phrase": "Perunu Cuntentu", "description": "Su server at elaboradu sa pregunta ma no torrat nisciunu cuntentu." },
+  "301": { "phrase": "Tramudadu in modu permanente", "description": "Sa resursa buscada at retzidu una URI permanente noa." },
+  "400": { "phrase": "Pregunta Mala", "description": "Su server non podet elaborare sa pregunta pro un'errore de su cliatu." },
+  "401": { "phrase": "Non Autorizadu", "description": "Sa pregunta rechedet un'autenticatzione de s'impitadore." },
+  "403": { "phrase": "Proibidu", "description": "Su server at cumprèndidu sa pregunta ma si refudat de dda autorizare." },
+  "404": { "phrase": "Non Chircadu", "description": "Su server non podet agatare sa resursa buscada." },
+  "429": { "phrase": "Tropu Preguntas", "description": "S'impitadore at imbiadu tropu preguntas in unu tempus dadu." },
+  "500": { "phrase": "Errore Internu de su Server", "description": "Su server at agatadu una situatzione imprevista." },
+  "502": { "phrase": "Gateway Malu", "description": "Su server at retzidu una risposta non vàlida dae su server de subra." },
+  "503": { "phrase": "Servìtziu non Disponìbile", "description": "Su server non podet elaborare sa pregunta pro immoe." },
+  "504": { "phrase": "Gateway in Timeout", "description": "Su server non at retzidu una risposta in tempus dae su server de subra." }
+}

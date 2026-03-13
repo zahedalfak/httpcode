@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Lean ar aghaidh", "description": "Fuair an freastalaí ceanntásca an iarratais agus ba cheart don chliant leanúint ar aghaidh ag seoladh chorp an iarratais." },
+  "200": { "phrase": "OK", "description": "D'éirigh leis an iarratas." },
+  "201": { "phrase": "Cruthaithe", "description": "D'éirigh leis an iarratas agus cruthaíodh acmhainn nua." },
+  "204": { "phrase": "Gan Ábhar", "description": "D'éirigh leis an bhfreastalaí an t-iarratas a phróiseáil ach ní chuireann sé aon ábhar ar ais." },
+  "301": { "phrase": "Bogtha go Buan", "description": "Sannadh URI buan nua don acmhainn a iarradh." },
+  "400": { "phrase": "Drochiarratas", "description": "Ní féidir leis an bhfreastalaí an t-iarratas a phróiseáil mar gheall ar earráid chliaint." },
+  "401": { "phrase": "Gan údarú", "description": "Teastaíonn fíordheimhniú úsáideora don iarratas." },
+  "403": { "phrase": "Toirmiscthe", "description": "Thuig an freastalaí an t-iarratas ach dhiúltaigh sé é a údarú." },
+  "404": { "phrase": "Gan Aimsiú", "description": "Ní féidir leis an bhfreastalaí an acmhainn a iarradh a aimsiú." },
+  "429": { "phrase": "An iomarca iarratas", "description": "Sheol an t-úsáideoir an iomarca iarratas in am áirithe." },
+  "500": { "phrase": "Earráid Inmheánach Freastalaí", "description": "Tháinig an freastalaí ar choinníoll nach rabhthas ag súil leis." },
+  "502": { "phrase": "Droch-Gheata", "description": "Fuair an freastalaí freagra neamhbhailí ón bhfreastalaí in aghaidh an tsrutha." },
+  "503": { "phrase": "Seirbhís Gan Fáil", "description": "Níl an freastalaí in ann an t-iarratas a láimhseáil faoi láthair." },
+  "504": { "phrase": "Amหมົດ Geata", "description": "Ní bhfuair an freastalaí freagra tráthúil ón bhfreastalaí in aghaidh an tsrutha." }
+}

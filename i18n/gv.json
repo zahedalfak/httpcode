@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Gow er ooi", "description": "Ta'n shirveishagh er n'gheddyn ny kione-linaghyn yeearree as lhisagh y kofane goll er ooi liorish coyrt y chorp yeearree." },
+  "200": { "phrase": "Kiart", "description": "V'an yeearree rahoil." },
+  "201": { "phrase": "Crooit", "description": "V'an yeearree rahoil as va stoyr noa er ny chroo." },
+  "204": { "phrase": "Gyn Cooid", "description": "Ren y shirveishagh obbyr rahoil er y yeearree agh cha nel eh coyrt cooid er ash." },
+  "301": { "phrase": "Scughit dy Beayn", "description": "Ta URI beayn noa currit da'n stoyr va yeearrit." },
+  "400": { "phrase": "Yeearree Olk", "description": "Cha nel y shirveishagh abyl gobbyr er y yeearree er coontey marranys y chofane." },
+  "401": { "phrase": "Gyn Kied", "description": "Ta feme ec y yeearree er feeraghey yn ymmydeyr." },
+  "403": { "phrase": "Lhiettit", "description": "Hymnee y shirveishagh yn yeearree agh t'eh jiooldey kied y chur da." },
+  "404": { "phrase": "Gyn Feddyn", "description": "Cha nel y shirveishagh abyl y stoyr va yeearrit y n'gheddyn." },
+  "429": { "phrase": "Rooane yeearreeyn", "description": "Ta'n ymmydeyr er n'choyrt rooane yeearreeyn ayns am ennagh." },
+  "500": { "phrase": "Marranys Shirveishagh Sthie", "description": "V'an shirveishagh er n'gheddyn stayd gyn jerkal rish." },
+  "502": { "phrase": "Bad Gateway", "description": "Hooar y shirveishagh ansmayrt neu-valjey veih shirveishagh ny s'yrjey." },
+  "503": { "phrase": "Shirveish gyn Feddyn", "description": "Cha nel y shirveishagh abyl yeearreeyn y reayll ec y traa t'ayn." },
+  "504": { "phrase": "Gateway Timeout", "description": "Cha dooar y shirveishagh ansmayrt ayns am veih shirveishagh ny s'yrjey." }
+}

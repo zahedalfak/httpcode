@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continua", "description": "O server o l'ha riçevùo e intestaçioìn da domanda e o client o deve continoâ a mandâ o corpo." },
+  "200": { "phrase": "Va bén", "description": "A domanda a l'é andæta bén." },
+  "201": { "phrase": "Creado", "description": "A domanda a l'é andæta bén e 'na nêua risorsa a l'é stæta creadâ." },
+  "204": { "phrase": "Nisciun Contenûo", "description": "O server o l'ha elaboròu a domanda ma o no torna nisciun contenûo." },
+  "301": { "phrase": "Spostòu pe de lóngo", "description": "A risorsa domandâ a l'ha riçevùo 'na nêua URI permanénte." },
+  "400": { "phrase": "Domanda Sbaliâ", "description": "O server o no pêu elaborâ a domanda pe un erô do client." },
+  "401": { "phrase": "No Outorizòu", "description": "A domanda a l'ha de bizógno de 'n'outenticaçion de l'uténte." },
+  "403": { "phrase": "Proibîo", "description": "O server o l'ha capîo a domanda ma o se refûda de outorizâla." },
+  "404": { "phrase": "No Trovòu", "description": "O server o no pêu trovâ a risorsa domandâ." },
+  "429": { "phrase": "Tròppe Domande", "description": "L'uténte o l'ha mandòu tròppe domande inte 'n ténpo dæto." },
+  "500": { "phrase": "Erô Intèrno do Server", "description": "O server o l'ha trovòu 'na situaçion imprevista." },
+  "502": { "phrase": "Bad Gateway", "description": "O server o l'ha riçevùo 'na rispòsta no vàlida dal server de d'âto." },
+  "503": { "phrase": "Servìçio no Disponìbile", "description": "O server o no l'é in gràddo de gestî a domanda pe òua." },
+  "504": { "phrase": "Gateway Timeout", "description": "O server o no l'ha riçevùo 'na rispòsta a ténpo dal server de d'âto." }
+}

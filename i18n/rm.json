@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Cuntinuar", "description": "L'ordinatur central ha retschavì ils chaus d'emprim e l'ordinatur cliant duess cuntinuar cun la transmissiun dal corp." },
+  "200": { "phrase": "In urden", "description": "L'emprim ha gì success." },
+  "201": { "phrase": "Creà", "description": "L'emprim ha gì success ed ina nova resursa è vegnida creada." },
+  "204": { "phrase": "Nagut cuntegn", "description": "L'ordinatur central ha elavurà cun success l'emprim ma na dat anavos nagut cuntegn." },
+  "301": { "phrase": "Muvì permanentamain", "description": "La resursa dumandada ha retschavì ina nova URI permanenta." },
+  "400": { "phrase": "Errur d'emprim", "description": "L'ordinatur central na po betg elavurar l'emprim pervia d'ina errur dal cliant." },
+  "401": { "phrase": "Betg autorisà", "description": "L'emprim basegna in'autentificaziun da l'utilisader." },
+  "403": { "phrase": "Prohibì", "description": "L'ordinatur central ha chapì l'emprim ma refusa l'autorisaziun." },
+  "404": { "phrase": "Betg chattà", "description": "L'ordinatur central na po betg chattar la resursa dumandada." },
+  "429": { "phrase": "Massa bleras dumondas", "description": "L'utilisader ha tramess massa bleras dumondas en in temp dà." },
+  "500": { "phrase": "Errur interna da l'ordinatur central", "description": "L'ordinatur central ha gì ina situaziun nunspetgada." },
+  "502": { "phrase": "Bad Gateway", "description": "L'ordinatur central ha retschavì ina resposta nunvalaivla da l'ordinatur central situà survart." },
+  "503": { "phrase": "Servetsch betg disponibel", "description": "L'ordinatur central n'è betg capabel d'elavurar l'emprim per il mument." },
+  "504": { "phrase": "Gateway Timeout", "description": "L'ordinatur central n'ha betg retschavì ina resposta a temp da l'ordinatur central situà survart." }
+}

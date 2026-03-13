@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Contunhar", "description": "Lo servidor a recebut las entèstas de la demanda e lo client deu contunhar de mandar lo còrs." },
+  "200": { "phrase": "D'acòrdi", "description": "La demanda a reussit." },
+  "201": { "phrase": "Creat", "description": "La demanda a reussit e una ressorça nòva es estada creada." },
+  "204": { "phrase": "Pas de contengut", "description": "Lo servidor a tractat la demanda corrèctament mas tòrna pas de contengut." },
+  "301": { "phrase": "Desplaçat d'un biais permanent", "description": "La ressorça demandada es estada assignada a una nòva URI permanenta." },
+  "400": { "phrase": "Demanda incorrècta", "description": "Lo servidor pòt pas tractar la demanda a causa d'una error del client." },
+  "401": { "phrase": "Pas autorizat", "description": "La demanda demanda una autentificacion de l'utilizaire." },
+  "403": { "phrase": "Proïbit", "description": "Lo servidor a comprés la demanda mas refusa de l'autorizar." },
+  "404": { "phrase": "Pas trobat", "description": "Lo servidor pòt pas trobar la ressorça demandada." },
+  "429": { "phrase": "Tròp de demandas", "description": "L'utilizaire a mandat tròp de demandas dins un temps donat." },
+  "500": { "phrase": "Error intèrna del servidor", "description": "Lo servidor a encontrat una situacion imprevista." },
+  "502": { "phrase": "Passarela incorrècta", "description": "Lo servidor a recebut una responsa invalida del servidor amont." },
+  "503": { "phrase": "Servici pas disponible", "description": "Lo servidor es pas en mesura de tractar la demanda pel moment." },
+  "504": { "phrase": "Relambi de passarela depassat", "description": "Lo servidor a pas recebut de responsa a temps del servidor amont." }
+}

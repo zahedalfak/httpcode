@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Lean air adhart", "description": "Fhuair am frithealaiche cinn an iarrtais agus bu chòir don neach-dèiligidh leantainn air adhart a' cur corp an iarrtais." },
+  "200": { "phrase": "OK", "description": "Shoirbhich leis an iarrtas." },
+  "201": { "phrase": "Air a chruthachadh", "description": "Shoirbhich leis an iarrtas agus chaidh goireas ùr a chruthachadh." },
+  "204": { "phrase": "Gun Stuth", "description": "Phròiseasaich am frithealaiche an t-iarrtas gu soirbheachail ach chan eil e a' tilleadh stuth sam bith." },
+  "301": { "phrase": "Air a ghluasad gu buan", "description": "Chaidh URI buan ùr a thoirt don ghoireas a chaidh iarraidh." },
+  "400": { "phrase": "Droch iarrtas", "description": "Chan urrainn don fhrithealaiche an t-iarrtas a phròiseasadh air sgàth mearachd neach-dèiligidh." },
+  "401": { "phrase": "Gun chead", "description": "Feumaidh an t-iarrtas dearbhadh neach-cleachdaidh." },
+  "403": { "phrase": "Toirmisgte", "description": "Thuigsinn am frithealaiche an t-iarrtas ach tha e a' diùltadh a cheadachadh." },
+  "404": { "phrase": "Cha deach a lorg", "description": "Chan urrainn don fhrithealaiche an goireas a chaidh iarraidh a lorg." },
+  "429": { "phrase": "Cus iarrtasan", "description": "Chuir an neach-cleachdaidh cus iarrtasan ann an ùine sònraichte." },
+  "500": { "phrase": "Mearachd frithealaiche a-staigh", "description": "Thachair am frithealaiche air suidheachadh nach robh dùil ris." },
+  "502": { "phrase": "Droch gheata", "description": "Fhuair am frithealaiche freagairt neo-dhligheach bhon fhrithealaiche shuas an t-sruth." },
+  "503": { "phrase": "Seirbheis gun fhaighinn", "description": "Chan eil am frithealaiche comasach air an t-iarrtas a làimhseachadh an-dràsta." },
+  "504": { "phrase": "Ùine geata seachad", "description": "Cha d' fhuair am frithealaiche freagairt ann an tìde bhon fhrithealaiche shuas an t-sruth." }
+}

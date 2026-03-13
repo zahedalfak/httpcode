@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continua", "description": "L'ordinator sentral a l'ha arseivù j'intestassion de la domanda e 'l client a dev continué a mandé 'l còrp." },
+  "200": { "phrase": "Va bin", "description": "La domanda a l'ha avù sucess." },
+  "201": { "phrase": "Creà", "description": "La domanda a l'ha avù sucess e na risorsa neuva a l'é stàita creà." },
+  "204": { "phrase": "Gnun Contenù", "description": "L'ordinator sentral a l'ha elaborà la domanda ma a tòrna nen gnun contenù." },
+  "301": { "phrase": "Spostà par sempe", "description": "La risorsa ciamà a l'ha arseivù na neuva URI pirmanenta." },
+  "400": { "phrase": "Domanda Sbalià", "description": "L'ordinator sentral a peul nen elaboré la domanda par via d'un eror dël client." },
+  "401": { "phrase": "Nen Autorisà", "description": "La domanda a l'ha bzògn d'un'autenticassion ëd l'utent." },
+  "403": { "phrase": "Proibì", "description": "L'ordinator sentral a l'ha capì la domanda ma a s'arfuda d'autorisela." },
+  "404": { "phrase": "Nen Trovà", "description": "L'ordinator sentral a peul nen trové la risorsa ciamà." },
+  "429": { "phrase": "Tròpe Domande", "description": "L'utent a l'ha mandà tròpe domande ant un temp dàit." },
+  "500": { "phrase": "Eror Intern dël Server", "description": "L'ordinator sentral a l'ha trovà na situassion nen prevìst." },
+  "502": { "phrase": "Bad Gateway", "description": "L'ordinator sentral a l'ha arseivù na rispòsta nen vàlida dal server dë sora." },
+  "503": { "phrase": "Servissi nen Disponìbil", "description": "L'ordinator sentral a l'é nen bon d'elaboré la domanda për adess." },
+  "504": { "phrase": "Gateway Timeout", "description": "L'ordinator sentral a l'ha nen arseivù na rispòsta a temp dal server dë sora." }
+}

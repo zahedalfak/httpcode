@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continua", "description": "O server ha ricevute ll'intestaziune d''a dumanna e 'o client addà cuntinuà a mannà 'o cuorpo." },
+  "200": { "phrase": "Va bbuono", "description": "A dumanna è ghiuta bbuono." },
+  "201": { "phrase": "Criato", "description": "A dumanna è ghiuta bbuono e na risorsa nova è stata criata." },
+  "204": { "phrase": "Nisciuno Cuntenuto", "description": "O server ha elaburato a dumanna ma nun ritorna nisciuno cuntenuto." },
+  "301": { "phrase": "Spustato pe' sempe", "description": "A risorsa cercata ha ricevuto na nova URI permanente." },
+  "400": { "phrase": "Dumanna Sbagliata", "description": "O server nun pò elaburà a dumanna pe' n'errore d''o client." },
+  "401": { "phrase": "Nun Auturizzato", "description": "A dumanna addumann' n'autenticazzione d''o mpiegato." },
+  "403": { "phrase": "Pruibito", "description": "O server ha capito a dumanna ma se rifiuta 'e l'auturizzà." },
+  "404": { "phrase": "Nun Truvato", "description": "O server nun pò truvà a risorsa cercata." },
+  "429": { "phrase": "Troppe Dumande", "description": "L'utente ha mannato troppe dumande dinto a nu tiempo dato." },
+  "500": { "phrase": "Errore Interno d''o Server", "description": "O server ha truvato na situazione imprevista." },
+  "502": { "phrase": "Bad Gateway", "description": "O server ha ricevuto na risposta nun vàlida d''o server 'e coppa." },
+  "503": { "phrase": "Servizio nun Disponibbile", "description": "O server nun è capace 'e gestire a dumanna pe' mmo'." },
+  "504": { "phrase": "Gateway Timeout", "description": "O server nun ha ricevuto na risposta a tiempo d''o server 'e coppa." }
+}

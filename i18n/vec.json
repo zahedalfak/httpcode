@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continua", "description": "El server ga risevù i intestasioni de la domanda e el client el deve continuar a mandar el corpo." },
+  "200": { "phrase": "Va ben", "description": "La domanda la xe andà ben." },
+  "201": { "phrase": "Creado", "description": "La domanda la xe andà ben e na nova risorsa la xe stà creada." },
+  "204": { "phrase": "Nissun Contenù", "description": "El server ga elaborà la domanda ma no'l torna indrio nissun contenù." },
+  "301": { "phrase": "Spostà par senpre", "description": "La risorsa domandà la ga risevù na nova URI permanente." },
+  "400": { "phrase": "Domanda Sbalià", "description": "El server no'l pol elaborà la domanda par via de un erore del client." },
+  "401": { "phrase": "No Autorisà", "description": "La domanda la ga bixogno de un'autenticasion de l'utente." },
+  "403": { "phrase": "Proibì", "description": "El server ga capì la domanda ma el se rifiuta de autorisarla." },
+  "404": { "phrase": "No Trovà", "description": "El server no'l pol trovar la risorsa domandà." },
+  "429": { "phrase": "Trope Domande", "description": "L'utente ga mandà trope domande inte un tenpo dato." },
+  "500": { "phrase": "Erore Interno del Server", "description": "El server ga catà na situasion imprevista." },
+  "502": { "phrase": "Bad Gateway", "description": "El server ga risevù na risposta no vàlida dal server de sora." },
+  "503": { "phrase": "Servisio no Disponibile", "description": "El server no'l xe bon de gestir la domanda par desso." },
+  "504": { "phrase": "Gateway Timeout", "description": "El server no'l ga risevù na risposta a tenpo dal server de sora." }
+}
