@@ -1,0 +1,2 @@
+# No external dependencies required for current scripts.
+# This file is provided for future scalability and best practices.

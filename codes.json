@@ -446,6 +446,12 @@
     "class": "4xx Client Error (Unofficial - Twitter)"
   },
   {
+    "code": 430,
+    "phrase": "Request Header Fields Too Large",
+    "description": "Used by Shopify when too many URLs are requested within a certain time frame.",
+    "class": "4xx Client Error (Unofficial - Shopify)"
+  },
+  {
     "code": 440,
     "phrase": "Login Timeout",
     "description": "The client's session has expired (IIS).",
@@ -458,6 +464,60 @@
     "class": "4xx Client Error (Unofficial - Nginx)"
   },
   {
+    "code": 449,
+    "phrase": "Retry With",
+    "description": "The request should be retried after performing the appropriate action (IIS).",
+    "class": "4xx Client Error (Unofficial - IIS)"
+  },
+  {
+    "code": 450,
+    "phrase": "Blocked by Windows Parental Controls",
+    "description": "Microsoft extension for Windows Parental Controls.",
+    "class": "4xx Client Error (Unofficial - IIS)"
+  },
+  {
+    "code": 460,
+    "phrase": "Client Closed Connection",
+    "description": "Client closed the connection with AWS ELB before timeout.",
+    "class": "4xx Client Error (Unofficial - AWS ELB)"
+  },
+  {
+    "code": 463,
+    "phrase": "X-Forwarded-For Header Too Large",
+    "description": "AWS ELB: X-Forwarded-For header with more than 30 IPs.",
+    "class": "4xx Client Error (Unofficial - AWS ELB)"
+  },
+  {
+    "code": 494,
+    "phrase": "Request Header Too Large",
+    "description": "Nginx: Client sent too large header or cookie.",
+    "class": "4xx Client Error (Unofficial - Nginx)"
+  },
+  {
+    "code": 495,
+    "phrase": "SSL Certificate Error",
+    "description": "Nginx: Client provided an invalid client certificate.",
+    "class": "4xx Client Error (Unofficial - Nginx)"
+  },
+  {
+    "code": 496,
+    "phrase": "SSL Certificate Required",
+    "description": "Nginx: Client certificate is required but not provided.",
+    "class": "4xx Client Error (Unofficial - Nginx)"
+  },
+  {
+    "code": 497,
+    "phrase": "HTTP Request Sent to HTTPS Port",
+    "description": "Nginx: HTTP request made to a port listening for HTTPS.",
+    "class": "4xx Client Error (Unofficial - Nginx)"
+  },
+  {
+    "code": 498,
+    "phrase": "Invalid Token",
+    "description": "Returned by ArcGIS Runtime SDK for iOS when an expired or invalid token is used.",
+    "class": "4xx Client Error (Unofficial - Google/ArcGIS)"
+  },
+  {
     "code": 499,
     "phrase": "Client Closed Request",
     "description": "Client closed the connection before server could respond (Nginx).",
@@ -466,7 +526,7 @@
   {
     "code": 509,
     "phrase": "Bandwidth Limit Exceeded",
-    "description": "The server has exceeded the bandwidth specified by the server administrator.",
+    "description": "The server has exceeded the bandwidth specified (Apache/cPanel).",
     "class": "5xx Server Error (Unofficial - Apache/cPanel)"
   },
   {
@@ -488,39 +548,63 @@
     "class": "5xx Server Error (Unofficial - Cloudflare)"
   },
   {
+    "code": 523,
+    "phrase": "Origin Is Unreachable",
+    "description": "Cloudflare: Could not reach origin server.",
+    "class": "5xx Server Error (Unofficial - Cloudflare)"
+  },
+  {
     "code": 524,
     "phrase": "A Timeout Occurred",
     "description": "Cloudflare: TCP handshake succeeded but origin did not respond in time.",
     "class": "5xx Server Error (Unofficial - Cloudflare)"
   },
   {
-    "code": 598,
-    "phrase": "Network Read Timeout Error",
-    "description": "Used by some proxies to indicate a network read timeout behind the proxy.",
-    "class": "5xx Server Error (Unofficial)"
+    "code": 525,
+    "phrase": "SSL Handshake Failed",
+    "description": "Cloudflare: Could not negotiate SSL/TLS handshake with origin.",
+    "class": "5xx Server Error (Unofficial - Cloudflare)"
   },
   {
-    "code": 599,
-    "phrase": "Network Connect Timeout Error",
-    "description": "Used by some proxies to indicate a network connect timeout behind the proxy.",
-    "class": "5xx Server Error (Unofficial)"
+    "code": 526,
+    "phrase": "Invalid SSL Certificate",
+    "description": "Cloudflare: Could not validate SSL/TLS certificate from origin.",
+    "class": "5xx Server Error (Unofficial - Cloudflare)"
   },
   {
-    "code": 498,
-    "phrase": "Invalid Token",
-    "description": "Returned by ArcGIS Runtime SDK for iOS when an expired or invalid token is used.",
-    "class": "4xx Client Error (Unofficial - Google/ArcGIS)"
+    "code": 527,
+    "phrase": "Railgun Error",
+    "description": "Cloudflare: Request failed after WAN connection was established.",
+    "class": "5xx Server Error (Unofficial - Cloudflare)"
   },
   {
     "code": 529,
     "phrase": "Site is overloaded",
-    "description": "Used by Qualys in the SSLLabs API to indicate that the site is overloaded.",
+    "description": "Used by Qualys in the SSLLabs API to indicate overload.",
     "class": "5xx Server Error (Unofficial)"
   },
   {
     "code": 530,
     "phrase": "Site is frozen",
-    "description": "Used by Pantheon to indicate a site that has been frozen due to inactivity.",
+    "description": "Used by Pantheon to indicate a frozen site.",
     "class": "5xx Server Error (Unofficial - Pantheon)"
+  },
+  {
+    "code": 561,
+    "phrase": "Unauthorized",
+    "description": "AWS ELB: Client authentication attempt with IdP failed.",
+    "class": "5xx Server Error (Unofficial - AWS ELB)"
+  },
+  {
+    "code": 598,
+    "phrase": "Network Read Timeout Error",
+    "description": "Used by some proxies to indicate a network read timeout.",
+    "class": "5xx Server Error (Unofficial)"
+  },
+  {
+    "code": 599,
+    "phrase": "Network Connect Timeout Error",
+    "description": "Used by some proxies to indicate a network connect timeout.",
+    "class": "5xx Server Error (Unofficial)"
   }
 ]
