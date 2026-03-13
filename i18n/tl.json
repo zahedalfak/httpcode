@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Magpatuloy", "description": "Natanggap ng server ang mga header ng kahilingan at dapat magpatuloy ang client sa pagpapadala ng katawan ng kahilingan." },
+  "200": { "phrase": "OK", "description": "Nagtagumpay ang kahilingan." },
+  "201": { "phrase": "Nalikha", "description": "Nagtagumpay ang kahilingan at may nalikhang bagong mapagkukunan." },
+  "204": { "phrase": "Walang Nilalaman", "description": "Matagumpay na naproseso ng server ang kahilingan ngunit hindi ito nagbabalik ng anumang nilalaman." },
+  "301": { "phrase": "Permanenteng Inilipat", "description": "Ang hiniling na mapagkukunan ay itinalaga ng isang bagong permanenteng URI." },
+  "400": { "phrase": "Maling Kahilingan", "description": "Hindi maproseso ng server ang kahilingan dahil sa isang error sa client." },
+  "401": { "phrase": "Hindi Awtorisado", "description": "Ang kahilingan ay nangangailangan ng pagpapatunay ng gumagamit." },
+  "403": { "phrase": "Ipinagbabawal", "description": "Naintindihan ng server ang kahilingan ngunit tumatangging pahintulutan ito." },
+  "404": { "phrase": "Hindi Nahanap", "description": "Hindi mahanap ng server ang hiniling na mapagkukunan." },
+  "429": { "phrase": "Masyadong Maraming Kahilingan", "description": "Nagpadala ang gumagamit ng masyadong maraming mga kahilingan sa isang naibigay na oras." },
+  "500": { "phrase": "Panloob na Error sa Server", "description": "Ang server ay nakatagpo ng isang hindi inaasahang kondisyon." },
+  "502": { "phrase": "Maling Gateway", "description": "Ang server ay nakatanggap ng isang hindi wastong tugon mula sa upstream server." },
+  "503": { "phrase": "Serbisyo ay Hindi Magagamit", "description": "Ang server ay kasalukuyang hindi mahawakan ang kahilingan (dahil sa labis na karga o pagpapanatili)." },
+  "504": { "phrase": "Gateway Timeout", "description": "Ang server ay hindi nakatanggap ng napapanahong tugon mula sa upstream server." }
+}

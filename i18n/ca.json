@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Continua", "description": "El servidor ha rebut les capçaleres de la petició i el client ha de continuar enviant el cos." },
+  "200": { "phrase": "D'acord", "description": "La petició s'ha completat amb èxit." },
+  "201": { "phrase": "Creat", "description": "La petició s'ha completat i s'ha creat un nou recurs." },
+  "204": { "phrase": "Sense contingut", "description": "El servidor ha processat correctament la petició però no retorna cap contingut." },
+  "301": { "phrase": "Traslladat permanentment", "description": "El recurs sol·licitat s'ha assignat a un nou URI permanent." },
+  "400": { "phrase": "Petició incorrecta", "description": "El servidor no pot processar la petició a causa d'un error del client." },
+  "401": { "phrase": "No autoritzat", "description": "La petició requereix autenticació de l'usuari." },
+  "403": { "phrase": "Prohibit", "description": "El servidor ha entès la petició però es nega a autoritzar-la." },
+  "404": { "phrase": "No trobat", "description": "El servidor no pot trobar el recurs sol·licitat." },
+  "429": { "phrase": "Massa peticions", "description": "L'usuari ha enviat massa peticions en un temps determinat." },
+  "500": { "phrase": "Error intern del servidor", "description": "El servidor ha trobat una condició inesperada." },
+  "502": { "phrase": "Porta d'enllaç incorrecta", "description": "El servidor ha rebut una resposta no vàlida del servidor upstream." },
+  "503": { "phrase": "Servei no disponible", "description": "El servidor no està preparat per gestionar la petició (sobrecàrrega o manteniment)." },
+  "504": { "phrase": "Temps d'espera de la porta d'enllaç", "description": "El servidor no ha rebut una resposta a temps del servidor upstream." }
+}

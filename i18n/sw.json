@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Endelea", "description": "Seva imepokea vichwa vya ombi na mteja anapaswa kuendelea kutuma mwili wa ombi." },
+  "200": { "phrase": "SAWA", "description": "Ombi limefaulu." },
+  "201": { "phrase": "Imeundwa", "description": "Ombi limefaulu na rasilimali mpya imeundwa." },
+  "204": { "phrase": "Hakuna Maudhui", "description": "Seva imefaulu kuchakata ombi lakini hairudishi maudhui yoyote." },
+  "301": { "phrase": "Imehamishwa Kabisa", "description": "Rasilimali iliyoombwa imepewa URI mpya ya kudumu." },
+  "400": { "phrase": "Ombi Mbaya", "description": "Seva haiwezi kuchakata ombi kutokana na hitilafu ya mteja." },
+  "401": { "phrase": "Hujaidhinishwa", "description": "Ombi linahitaji uthibitishaji wa mtumiaji." },
+  "403": { "phrase": "Imeharamishwa", "description": "Seva imeelewa ombi lakini inakataa kuliidhinisha." },
+  "404": { "phrase": "Haipatikani", "description": "Seva haiwezi kupata rasilimali iliyoombwa." },
+  "429": { "phrase": "Maombi Mengi Sana", "description": "Mtumiaji ametuma maombi mengi sana kwa muda fulani." },
+  "500": { "phrase": "Hitilafu ya Seva ya Ndani", "description": "Seva imekumbana na hali isiyotarajiwa." },
+  "502": { "phrase": "Gateway Mbaya", "description": "Seva imepokea jibu lisilo sahihi kutoka kwa seva ya juu." },
+  "503": { "phrase": "Huduma Haipatikani", "description": "Seva haiwezi kushughulikia ombi kwa sasa (kutokana na kuzidiwa au matengenezo)." },
+  "504": { "phrase": "Gateway Timeout", "description": "Seva haikupokea jibu kwa wakati kutoka kwa seva ya juu." }
+}

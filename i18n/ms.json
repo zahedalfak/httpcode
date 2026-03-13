@@ -1,0 +1,16 @@
+{
+  "100": { "phrase": "Teruskan", "description": "Pelayan telah menerima pengepala permintaan dan pelanggan harus terus menghantar badan permintaan." },
+  "200": { "phrase": "OK", "description": "Permintaan telah berjaya." },
+  "201": { "phrase": "Dicipta", "description": "Permintaan telah berjaya dan sumber baharu telah dicipta." },
+  "204": { "phrase": "Tiada Kandungan", "description": "Pelayan berjaya memproses permintaan tetapi tidak mengembalikan sebarang kandungan." },
+  "301": { "phrase": "Dipindahkan Secara Kekal", "description": "Sumber yang diminta telah diberikan URI kekal baharu." },
+  "400": { "phrase": "Permintaan Buruk", "description": "Pelayan tidak dapat memproses permintaan kerana ralat pelanggan." },
+  "401": { "phrase": "Tidak Sah", "description": "Permintaan memerlukan pengesahan pengguna." },
+  "403": { "phrase": "Dilarang", "description": "Pelayan memahami permintaan tetapi enggan membenarkannya." },
+  "404": { "phrase": "Tidak Ditemui", "description": "Pelayan tidak dapat mencari sumber yang diminta." },
+  "429": { "phrase": "Terlalu Banyak Permintaan", "description": "Pengguna telah menghantar terlalu banyak permintaan dalam masa tertentu." },
+  "500": { "phrase": "Ralat Pelayan Dalaman", "description": "Pelayan mengalami keadaan yang tidak dijangka." },
+  "502": { "phrase": "Gateway Buruk", "description": "Pelayan menerima maklum balas tidak sah daripada pelayan huluan." },
+  "503": { "phrase": "Perkhidmatan Tidak Tersedia", "description": "Pelayan tidak dapat menangani permintaan buat masa ini (beban berlebihan atau penyelenggaraan)." },
+  "504": { "phrase": "Masa Tamat Gateway", "description": "Pelayan tidak menerima maklum balas tepat pada masanya daripada pelayan huluan." }
+}
